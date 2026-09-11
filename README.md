@@ -14,7 +14,40 @@ and the Cybersecurity Engineering PAM 2.0 — making both standards queryable by
 quality engineers and ASPICE assessors without reading 200-page PDFs.
 
 ---
+## Validation Results
 
+Tested against 10 representative ASPICE assessment questions 
+covering all major use cases — process structure, information items, 
+capability levels, generic practices, CS PAM processes, and 
+Annex D traceability.
+
+| Metric | Result |
+|---|---|
+| Questions tested | 10 |
+| Correct | 9 |
+| Partial | 1 |
+| Wrong | 0 |
+| **Accuracy** | **95%** |
+
+Research shows LLMs hallucinate regulatory answers 58-88% of the 
+time without knowledge graph grounding. This graph provides that 
+grounding for ASPICE assessments.
+
+See `data/validation_questions.md` for the full question set 
+and Cypher queries.
+
+## Graph Statistics
+
+| Metric | Count |
+|---|---|
+| Total nodes | 981 |
+| Total relationships | 1553 |
+| Processes | 38 |
+| Base Practices | 226 |
+| Process Outcomes | 215 |
+| Information Items | 121 |
+| Generic Practices | 34 |
+| Validation checks | 27/27 ✅ |
 ## Folder Structure
 
 ```
