@@ -1,7 +1,7 @@
 # ASPICE PAM 4.1 Knowledge Graph
 **Open knowledge graph of Automotive SPICE® PAM 4.1 + CS PAM 2.0**
 
-Built by: Sathiya Ramamoorthy  
+Built by: Sathiyamoorthy Ramamoorthy  
 Status: Work in Progress  
 License: MIT
 
