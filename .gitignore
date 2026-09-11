@@ -1,0 +1,11 @@
+.env
+*.env
+.DS_Store
+venv/
+__pycache__/
+*.pyc
+data/nodes.csv
+data/relationships.csv
+Neo4j-*.txt
+Reference/
+files/
