@@ -1,0 +1,1476 @@
+label,id,name,source_document,purpose,description,characteristics
+Document,ASPICE_PAM_4.1,null,null,null,null,null
+Document,CS_PAM_2.0,null,null,null,null,null
+ProcessCategory,Primary,Primary processes category,ASPICE_PAM_4.1,null,null,null
+ProcessCategory,Supporting,Supporting processes category,ASPICE_PAM_4.1,null,null,null
+ProcessCategory,Organizational,Organizational processes category,ASPICE_PAM_4.1,null,null,null
+ProcessGroup,ACQ,Acquisition process group,ASPICE_PAM_4.1,null,null,null
+ProcessGroup,SPL,Supply process group,ASPICE_PAM_4.1,null,null,null
+ProcessGroup,SYS,System Engineering process group,ASPICE_PAM_4.1,null,null,null
+ProcessGroup,VAL,Validation process group,ASPICE_PAM_4.1,null,null,null
+ProcessGroup,SWE,Software Engineering process group,ASPICE_PAM_4.1,null,null,null
+ProcessGroup,MLE,Machine Learning Engineering process group,ASPICE_PAM_4.1,null,null,null
+ProcessGroup,HWE,Hardware Engineering process group,ASPICE_PAM_4.1,null,null,null
+ProcessGroup,SUP,Supporting process group,ASPICE_PAM_4.1,null,null,null
+ProcessGroup,MAN,Management process group,ASPICE_PAM_4.1,null,null,null
+ProcessGroup,PIM,Process Improvement process group,ASPICE_PAM_4.1,null,null,null
+ProcessGroup,REU,Reuse process group,ASPICE_PAM_4.1,null,null,null
+ProcessGroup,SEC,Cybersecurity Engineering process group,CS_PAM_2.0,null,null,null
+Process,ACQ.4,Supplier Monitoring,ASPICE_PAM_4.1,The purpose is to track and assess the performance of an external contract-based supplier company against the agreed commitments.,null,null
+Process,ACQ.2,Supplier Request and Selection,CS_PAM_2.0,The purpose is to select a supplier for a commitment/agreement based on relevant criteria.,null,null
+Process,SPL.2,Product Release,ASPICE_PAM_4.1,The purpose is to control the release of a product to the intended customer.,null,null
+Process,SYS.1,Requirements Elicitation,ASPICE_PAM_4.1,"The purpose is to gather, analyze, and track evolving stakeholder needs and requirements throughout the lifecycle of the product and/or service to establish a set of agreed requirements.",null,null
+Process,SYS.2,System Requirements Analysis,ASPICE_PAM_4.1,The purpose is to establish a structured and analyzed set of system requirements consistent with the stakeholder requirements.,null,null
+Process,SYS.3,System Architectural Design,ASPICE_PAM_4.1,"The purpose is to establish an analyzed system architecture, comprising the static and dynamic aspects, consistent with the system requirements.",null,null
+Process,SYS.4,System Integration and Integration Verification,ASPICE_PAM_4.1,The purpose is to integrate the system elements and to verify that the integrated system elements are consistent with the system architecture.,null,null
+Process,SYS.5,System Verification,ASPICE_PAM_4.1,The purpose is to ensure that the system is verified to be consistent with the system requirements.,null,null
+Process,VAL.1,Validation,ASPICE_PAM_4.1,"The purpose is to provide evidence that the end product, allowing direct end user interaction, satisfies the intended use expectations in its operational target environment.",null,null
+Process,SWE.1,Software Requirements Analysis,ASPICE_PAM_4.1,"The purpose is to establish a structured and analyzed set of software requirements consistent with the system requirements, and the system architecture.",null,null
+Process,SWE.2,Software Architectural Design,ASPICE_PAM_4.1,"The purpose is to establish an analyzed software architecture, comprising the static and dynamic aspects, consistent with the software requirements.",null,null
+Process,SWE.3,Software Detailed Design and Unit Construction,ASPICE_PAM_4.1,"The purpose is to establish a software detailed design, comprising the static and dynamic aspects, consistent with the software architecture, and to construct the software units consistent with the software detailed design.",null,null
+Process,SWE.4,Software Unit Verification,ASPICE_PAM_4.1,The purpose is to verify that software units are consistent with the software detailed design.,null,null
+Process,SWE.5,Software Component Verification and Integration Verification,ASPICE_PAM_4.1,"The purpose is to verify that the software components are consistent with the software architectural design, and to integrate the software elements and verify that the integrated software elements are consistent with the software architecture and the software detailed design.",null,null
+Process,SWE.6,Software Verification,ASPICE_PAM_4.1,The purpose is to ensure that the integrated software is verified to be consistent with the software requirements.,null,null
+Process,MLE.1,Machine Learning Requirements Analysis,ASPICE_PAM_4.1,The purpose is to refine the machine learning-related software requirements into a set of ML requirements.,null,null
+Process,MLE.2,Machine Learning Architecture,ASPICE_PAM_4.1,"The purpose is to establish a ML architecture supporting training and deployment of a ML model, consistent with the ML requirements, and to evaluate the ML architecture against defined criteria.",null,null
+Process,MLE.3,Machine Learning Training,ASPICE_PAM_4.1,The purpose is to optimize the ML model to meet the defined ML requirements.,null,null
+Process,MLE.4,Machine Learning Model Testing,ASPICE_PAM_4.1,The purpose is to ensure the compliance of the trained ML model and the deployed ML model with the ML requirements.,null,null
+Process,HWE.1,Hardware Requirements Analysis,ASPICE_PAM_4.1,"The purpose is to establish a structured and analyzed set of hardware requirements consistent with the system requirements, and the system architectural design.",null,null
+Process,HWE.2,Hardware Design,ASPICE_PAM_4.1,"The purpose is to provide an analyzed design, including dynamic aspects, that is consistent with the hardware requirements and suitable for manufacturing, and to derive production-relevant data.",null,null
+Process,HWE.3,Verification against Hardware Design,ASPICE_PAM_4.1,The purpose is to ensure that the production data compliant hardware is verified to provide evidence for compliance with the hardware design.,null,null
+Process,HWE.4,Verification against Hardware Requirements,ASPICE_PAM_4.1,The purpose is to ensure that the complete hardware is verified to be consistent with the hardware requirements.,null,null
+Process,SUP.1,Quality Assurance,ASPICE_PAM_4.1,The purpose is to provide independent and objective assurance that the work products and processes comply with the defined criteria and that the non-conformances are resolved and further prevented.,null,null
+Process,SUP.8,Configuration Management,ASPICE_PAM_4.1,"The purpose is to establish and maintain the integrity of relevant configuration items and baselines, and to make them available to all affected parties.",null,null
+Process,SUP.9,Problem Resolution Management,ASPICE_PAM_4.1,"The purpose is to ensure that problems are identified, recorded, analyzed, and their resolution is managed and controlled.",null,null
+Process,SUP.10,Change Request Management,ASPICE_PAM_4.1,"The purpose is to ensure that change requests are recorded, analyzed, tracked, approved, and implemented.",null,null
+Process,SUP.11,Machine Learning Data Management,ASPICE_PAM_4.1,"The purpose is to define and align ML data with ML data requirements, maintain the integrity and quality of the ML data, and to make them available to all affected parties.",null,null
+Process,MAN.3,Project Management,ASPICE_PAM_4.1,"The purpose is to identify and control the activities, and to establish resources necessary for a project to develop a product, in the context of the project's requirements and constraints.",null,null
+Process,MAN.5,Risk Management,ASPICE_PAM_4.1,"The purpose is to regularly identify, analyze, treat and monitor the process related risks and the product related risks.",null,null
+Process,MAN.6,Measurement,ASPICE_PAM_4.1,"The purpose is to collect and analyze data relating to the development results and processes implemented within the organization and its projects, to support an effective management of the processes.",null,null
+Process,MAN.7,Cybersecurity Risk Management,CS_PAM_2.0,"The purpose is to regularly identify, analyze, prioritize, and monitor risks of damage to relevant stakeholders.",null,null
+Process,PIM.3,Process Improvement,ASPICE_PAM_4.1,The purpose is to continually improve the organization's effectiveness and efficiency through the processes used and to ensure alignment of the processes with the business needs.,null,null
+Process,REU.2,Reuse of Products,ASPICE_PAM_4.1,"The purpose is to ensure that the reused (work) products are analyzed, verified, and approved for their target context.",null,null
+Process,SEC.1,Cybersecurity Requirements Elicitation,CS_PAM_2.0,The purpose is to specify cybersecurity goals and requirements from the outcomes of cybersecurity risk management covering the threat scenarios.,null,null
+Process,SEC.2,Cybersecurity Implementation,CS_PAM_2.0,"The purpose is to refine the design of the system, software and hardware, consistent with the cybersecurity requirements and to ensure they are implemented.",null,null
+Process,SEC.3,Risk Treatment Verification,CS_PAM_2.0,"The purpose is to confirm that the implementation of the design and integration of the components comply with the cybersecurity requirements, the refined architectural design and detailed design.",null,null
+Process,SEC.4,Risk Treatment Validation,CS_PAM_2.0,The purpose is to confirm that the integrated system achieves the associated cybersecurity goals.,null,null
+CapabilityLevel,CL0,Incomplete process,ASPICE_PAM_4.1,null,The process is not implemented or fails to achieve its process purpose.,null
+CapabilityLevel,CL1,Performed process,ASPICE_PAM_4.1,null,The implemented process achieves its process purpose.,null
+CapabilityLevel,CL2,Managed process,ASPICE_PAM_4.1,null,"The performed process is now implemented in a managed fashion and its work products are appropriately established, controlled and maintained.",null
+CapabilityLevel,CL3,Established process,ASPICE_PAM_4.1,null,The managed process is now implemented using a defined process capable of achieving its process outcomes.,null
+CapabilityLevel,CL4,Predictable process,ASPICE_PAM_4.1,null,The established process now operates predictively within defined limits to achieve its process outcomes.,null
+CapabilityLevel,CL5,Innovating process,ASPICE_PAM_4.1,null,The predictable process is now continually improved to respond to organizational change.,null
+ProcessAttribute,PA 1.1,Process performance,ASPICE_PAM_4.1,null,null,null
+ProcessAttribute,PA 2.1,Process performance management,ASPICE_PAM_4.1,null,null,null
+ProcessAttribute,PA 2.2,Work product management,ASPICE_PAM_4.1,null,null,null
+ProcessAttribute,PA 3.1,Process definition,ASPICE_PAM_4.1,null,null,null
+ProcessAttribute,PA 3.2,Process deployment,ASPICE_PAM_4.1,null,null,null
+ProcessAttribute,PA 4.1,Quantitative analysis,ASPICE_PAM_4.1,null,null,null
+ProcessAttribute,PA 4.2,Quantitative control,ASPICE_PAM_4.1,null,null,null
+ProcessAttribute,PA 5.1,Process innovation,ASPICE_PAM_4.1,null,null,null
+ProcessAttribute,PA 5.2,Process innovation implementation,ASPICE_PAM_4.1,null,null,null
+InformationItem,02-01,Commitment/agreement,CS_PAM_2.0,null,null,"• Signed off by all parties involved in the commitment/agreement
+• Establishes what the commitment is for
+• Establishes the resources required to fulfill the commitment, such as:
+- time
+- people
+- budget
+- equipment
+- facilities"
+InformationItem,03-50,Verification measure data,CS_PAM_2.0,null,null,"• Verification measure data are data recorded during the execution of a verification measure, e.g.:
+- for test cases: raw data, logs, traces, tool generated outputs
+- measurements: values
+- calculations: values
+- simulations: protocol
+- reviews such as optical inspections and findings record
+- analyses: values"
+InformationItem,04-04,Software architecture,CS_PAM_2.0,null,null,"• A justifying rationale for the chosen architecture.
+• Individual functional and non-functional behavior of the software components
+• Settings for application parameters (being a technical implementation solution for configurability-oriented requirements)
+• Technical characteristics of interfaces for relationships between software components such as:
+- Synchronization of Processes and tasks
+- Programming language call
+- APIs
+- Specifications of SW libraries
+- Method definitions in an object-oriented class definitions or UML/SysML interface classes
+- Callback functions, ""hooks""
+• Dynamics of software components and software states such as:
+- Logical software operating modes (e.g., start-up, shutdown, normal mode, calibration, diagnosis, etc.)
+- intercommunication (processes, tasks, threads) and priority
+- time slices and cycle time
+- interrupts with their priorities
+- interactions between software components
+• Explanatory annotations, e.g., with natural language, for single elements or entire diagrams/models."
+InformationItem,04-05,Software detailed design,CS_PAM_2.0,null,null,"• Elements of a software detailed design:
+- Control flow definition
+- Format of input/output data
+- Algorithms
+- Defined data structures
+- Justified global variables
+- Explanatory annotations, e.g., with natural language, for single elements or entire diagrams/models
+• Examples for expression languages, depending on the complexity or criticality of a software unit:
+- natural language or informal languages
+- semi-formal languages (e.g., UML, SysML)
+- formal languages (e.g., model-based approach)"
+InformationItem,04-06,System architecture,CS_PAM_2.0,null,null,"• A justifying rationale for the chosen architecture.
+• Individual behavior of system elements
+• Interrelationships between system elements
+- Settings for system parameters (such as application parameters)
+- Manual/human control actions, e.g., according to STPA
+• Interface Definitions:
+- Technical characteristics of interfaces for relationships between two system elements
+• Interfaces between system elements e.g.:
+- bus interfaces (CAN, MOST, LIN, Flexray etc.)
+- thermal influences
+- hardware-software-interfaces (HSI)
+- electromagnetic interfaces
+- optical interfaces
+- hardware-mechanical-interfaces
+- hardware-mechanical interconnection technology such as connectors, pressfit
+- creepage and clearance distances
+• Fixations such as adhesive joints, screw bolts/fitting, riveted bolts, welding
+• System interfaces related to EE Hardware e.g.:
+- analogue or digital interfaces (PWM, I/O) and their pin configurations
+- SPI bus, I2C bus, electrical interconnections
+- placement, e.g., thermal interfaces between hardware elements (heat dissipation)
+- soldering
+- creepage and clearance distances
+• Interfaces for mechanical engineering e.g.:
+- friction
+- thermal influences
+- tolerances
+- clutches
+- fixations such as adhesive joints, screw bolts/fitting, riveted bolts, welding
+- forces (as a result of e.g., vibrations or friction)
+- placement
+- shape
+• A hardware-software interface, e.g.:
+- connector pin configurations and floating IOs for µCs/MOSFETs
+- signal scaling & resolution to be reflected by the application software
+• Mechanical-hardware interfaces e.g.
+- such as mechanical dimensioning
+- positioning of connectors
+- positioning of e.g., hall sensors in relation to the bus-bar
+- tolerances
+• Dynamics of system elements and system states:
+- Description of the system states and operation modes (startup, shutdown, sleep mode, diagnosis/calibration mode, production mode, degradation, emergency such as ""limp-home"", etc.)
+- Description of the dependencies among the system components regarding the operation modes
+- Interactions between system elements such as inertia of mechanical components to be reflected by the ECU, signal propagation and processing time through the hardware and software and e.g., bus systems
+• Explanatory annotations, e.g., with natural language, for single elements or entire diagrams/models."
+InformationItem,04-52,Hardware architecture,CS_PAM_2.0,null,null,"• Describes the initial floor plan and the overall hardware structure
+• Identifies the required hardware components
+• Includes the rationale for chosen options of hardware architecture
+• Identifies own developed and supplied hardware components
+• Identifies the required internal and external hardware component interfaces
+• Specifies the interfaces of the hardware components
+• Specifies dynamic behavior
+• Identifies the relationship and dependency between hardware components
+• Describes all hardware variants to be developed
+• Describes power supply, thermal and grounding concepts"
+InformationItem,04-53,Hardware detailed design,CS_PAM_2.0,null,null,"• Describes the interconnections between the hardware parts
+• Specifies the interfaces of the hardware parts
+• Specifies the dynamic behavior (examples are: transitions between electrical states of hardware parts, power-up and power-down sequences, frequencies, modulations, signal delays, debounce times, filters, short circuit behavior, self-protection)
+• Describes the conclusions and decisions based on e.g., analysis reports, datasheets, application notes
+• Describes the constraints for layout"
+InformationItem,08-55,Risk treatment,CS_PAM_2.0,null,null,"• Identifies
+- the risk to be mitigated, avoided, retained or transferred (shared)
+- the activities to mitigate, avoid, retain or transfer (share) the risk
+- the originator of the measure
+- criteria for successful implementation
+- criteria for cancellation of activities
+- frequency of monitoring
+• Risk treatment alternatives:
+- treatment option selected - avoid/reduce/retain/transfer (share)
+- alternative descriptions
+- recommended alternative(s)
+• justifications"
+InformationItem,08-57,Validation measure selection set,CS_PAM_2.0,null,null,"• Include criteria for re-validation in the case of changes (regression).
+• Identification of validation measures, also for regression"
+InformationItem,08-58,Verification measure selection set,CS_PAM_2.0,null,null,"• Include criteria for re-verification in the case of changes (regression).
+• Identification of verification measures, also for regression testing"
+InformationItem,08-60,Verification measure,CS_PAM_2.0,null,null,"• A verification measure can be a test case, a measurement, a calculation, a simulation, a review, an optical inspection, or an analysis
+• The specification of a verification measure includes
+- pass/fail criteria for verification measures (test completion and ending criteria)
+- a definition of entry and exit criteria for the verification measures, and abort and re-start criteria
+• Techniques (e.g., black-box and/or white-box-testing, equivalence classes and boundary values, fault injection for Functional Safety, penetration testing for Cybersecurity, back-to-back testing for model-based development, ICT)
+• Necessary verification environment & infrastructure
+• Necessary sequence or ordering"
+InformationItem,13-51,Consistency evidence,CS_PAM_2.0,null,null,"• Demonstrates bidirectional traceability between artifacts or information in artifacts, throughout all phases of the life cycle, by e.g.,
+- tool links
+- hyperlinks
+- editorial references
+- naming conventions
+• Evidence that the content of the referenced or mapped information coheres semantically along the traceability chain, e.g., by
+- performing pair working or group work
+- reviewing by peers, e.g., spot checks
+- maintaining revision history in documents
+- providing change commenting (via e.g., meta-information) of database or repository entries
+• Note: This evidence can be accompanied by e.g., Definition of Done (DoD) approaches."
+InformationItem,13-52,Communication evidence,CS_PAM_2.0,null,null,"• All forms of interpersonal communication such as
+- e-mails, also automatically generated ones
+- tool-supported workflows
+- meeting, verbally or via meeting minutes (e.g., daily standups)
+- podcast
+- blog
+- videos
+- forum
+- live chat
+- wikis
+- photo protocol"
+InformationItem,15-51,Analysis results,CS_PAM_2.0,null,null,"• Identification of the object under analysis.
+• The analysis criteria used, e.g.:
+- selection criteria or prioritization scheme used
+- decision criteria
+- quality criteria
+• The analysis results, e.g.:
+- what was decided/selected
+- reason for the selection
+- assumptions made
+- potential negative impact
+• Aspects of the analysis may include
+- correctness
+- understandability
+- verifiability
+- feasibility
+- validity"
+InformationItem,15-52,Verification Results,CS_PAM_2.0,null,null,"• Verification data and logs
+• Verification measure passed
+• Verification measure not passed
+• Verification measure not executed
+• information about the test execution (date, tester name etc.)
+• Abstraction or summary of verification results"
+InformationItem,17-00,Requirement,CS_PAM_2.0,null,null,"• An expectation of functions and capabilities (e.g., non-functional requirements), or one of its interfaces
+- from a black-box perspective"
+InformationItem,17-54,Requirement attribute,CS_PAM_2.0,null,null,Meta-attributes that support structuring and definition of release scopes of requirements. Can be realized by means of tools. Note: usage of requirements attributes may further support analysis of requirements.
+InformationItem,08-56,Schedule,ASPICE_PAM_4.1,null,null,"A plan that defines the times and sequences for events, tasks, or activities. Identifies: Activities, Timing requirements, for example start and due dates, Dependencies between activities, Critical path. Includes: Progress evaluation, for example completion of individual activities, Scheduled resources, Input data, Evaluation of resource workload, Shared resources."
+InformationItem,10-00,Process description,ASPICE_PAM_4.1,null,null,"Description of a standard or a defined process. Identifies: Scope, purpose and intended use, Activities including their description and dependencies, Entry and exit criteria such as input information needed and expected outputs for activities, Templates, Guidance documents (for example guidelines, work instructions, standards or method descriptions). Includes: Roles assigned to process activities (for example as RASIC or to work products), Sequence and interaction of activities within the process, Sequence and interaction of the process to other processes, Tailoring guidelines."
+InformationItem,13-08,Baseline,ASPICE_PAM_4.1,null,null,"A coherent set of work products which are consistent and complete and may serve as basis for next process steps and/or delivery. A baseline must be unique and not changed any more. Identifies: All work products belonging to the baseline, References using the configuration item properties. Includes: Name, Version, State."
+InformationItem,13-19,Review evidence,ASPICE_PAM_4.1,null,null,"A proof to demonstrate a structured check of a work product or a process has taken place.
+Identifies:
+• Name and version of the review object
+• Names and roles of the people who performed the review
+• Date
+• Status
+• Review criteria, for example review method, coverage, justification
+• Non-conformances found
+• Improvement suggestions
+Includes:
+• Documents considered, for example checklists, guidelines, work instructions
+• Time spent
+• Applicable standards"
+InformationItem,14-10,Work package,ASPICE_PAM_4.1,null,null,"Activities required to be performed in order to complete a set of work.
+Identifies:
+• Activities to be performed
+• Ownership, for example to a specific domain like verification.
+• Dependencies to other activities and work products
+• Input and output work products
+• Required information
+Includes:
+• Estimation of efforts and duration
+Examples and References:
+• Work package can be a statement of work document, for example to outsource activities to an engineering service."
+InformationItem,17-05,Requirements for work products,ASPICE_PAM_4.1,null,null,"Statement that identifies a textual, functional, or design characteristic, necessary for work products. Identifies: Expectation to content and structure, Owner and origin of the requirement, Control and approval mechanism, Identification information, Access rights, Status model references, for example as maintenance and disposal requirements. Includes: References to documentation templates, Table of content or other overview documentation, Design constraints, for example predefined and necessary implementation details, Tolerances, Domain specific details, for example of safety and privacy standards."
+InformationItem,18-58,Process performance objectives,ASPICE_PAM_4.1,null,null,"Description of performance goals and targets to be achieved by a process. Identifies: Evaluation criteria, Metrics, for example number of change requests, Timing definitions, for example duration until change requests are to be analyzed, Events, for example demonstration milestone. Includes: Assumptions and constraints. Examples and References: Effort or cost targets, Budget limitations, Frequency of tasks, Limits of parallel work items for an employee."
+InformationItem,19-01,Process performance strategy,ASPICE_PAM_4.1,null,null,"Description of an approach to achieve performance objectives of a process.
+Identifies:
+• Proceedings
+• Methodology
+• Scope of the strategy
+Includes:
+• Monitoring requirements, for example of performance
+• Domain specific references
+• Socio-cultural differences
+Examples and References:
+• Performance specific to development sites
+• Configuration management approaches for software"
+InformationItem,02-50,Interface agreement,CS_PAM_2.0,null,null,"• Interface agreement should include definitions regarding
+- customer and supplier stakeholders and contacts
+- tailoring agreements
+- customer/supplier responsibilities (e.g., roles, RASIC chart) for distributed activities, including required actions in development and post-development
+- share of information/work products in case of issues (e.g., vulnerabilities, findings, risks)
+- agreed customer/supplier milestones
+- duration of supplier's support and maintenance"
+InformationItem,03-55,Validation measure data,CS_PAM_2.0,null,null,"• Validation measure data are data recorded during the execution of a validation measure, e.g.: Logs, traces, raw data, crash dumps, review protocols."
+InformationItem,08-59,Validation measure,CS_PAM_2.0,null,null,"• A validation measure can be a test case, a measurement, a simulation, an emulation, or an end user survey
+• The specification of a validation measure includes
+- pass/fail criteria for validation measures (completion and end criteria)
+- a definition of entry and exit criteria for the validation measures, and abort and re-start criteria
+• Techniques
+• Necessary validation environment & infrastructure
+• Necessary sequence or ordering"
+InformationItem,12-01,Request for quotation,CS_PAM_2.0,null,null,"• Reference to the requirements specifications
+• Cybersecurity responsibilities of the supplier
+• The scope of work regarding cybersecurity, including the cybersecurity goals or the set of relevant cybersecurity requirements and their attributes
+• Action plan for identified deviations and risks
+• Identifies desired characteristics, such as:
+- system architecture, configuration requirements or the requirements for service (consultants, maintenance, etc.)
+- quality criteria or requirements
+- project schedule requirements
+- expected delivery/service dates
+- cost/price expectations
+- regulatory standards/requirements
+• Identifies submission constraints:
+- date for resubmission of the response
+• requirements with regard to the format of response"
+InformationItem,13-24,Validation results,CS_PAM_2.0,null,null,"• Validation data, logs, feedback, or documentation
+• Validation measure passed
+• Validation measure not passed
+• Validation measure not executed, and a rationale
+• Information about the validation execution (date, participants etc.)
+• Abstraction or summary of validation results"
+InformationItem,15-09,Risk status,CS_PAM_2.0,null,null,"• Identifies the status, or the change, of an identified risk:
+- risk statement
+- risk source
+- risk impact and risk likelihood
+- categories and risk thresholds, e.g., for prioritization or setting a status
+- risk treatment activities in progress"
+InformationItem,15-21,Supplier evaluation,CS_PAM_2.0,null,null,"• States the purpose of evaluation
+• Identifies supplier selection criteria
+• Method and instrument (checklist, tool) used for evaluation
+• Requirements used for the evaluation
+• Assumptions and limitations
+• Identifies the context and scope information required (e.g., date of evaluation, parties involved)
+• Fulfillment of evaluation requirements"
+InformationItem,15-50,Vulnerability analysis evidence,CS_PAM_2.0,null,null,"• Identifies
+- ID
+- description
+- attack path concerned
+• attack feasibility (e.g., CVSS (Common Vulnerability Scoring System) rating)"
+InformationItem,17-51,Cybersecurity goals,CS_PAM_2.0,null,null,"Describe a property of an asset that it is necessary to protect by means of cybersecurity. This may include: Confidentiality needs, Authorization needs, Integrity needs, Availability needs, etc. Information that can be included in the goals: Goal Title, Objective, Scope, Key Metrics and success criteria, Milestones (if Applicable), Action plan (if applicable), stakeholders involved, link to potential risks, budget and resources, Timeline, Compliance and standards, Sign-off and approval"
+InformationItem,17-52,Cybersecurity controls,CS_PAM_2.0,null,null,"Technical solutions to prevent, detect, or mitigate cybersecurity risks. Associated to one or more cybersecurity requirements"
+InformationItem,17-53,Cybersecurity threat scenario,CS_PAM_2.0,null,null,"Description of how threats exploit a weakness/vulnerability or multiple weaknesses/vulnerabilities exposing assets to harm, to enable the corresponding risk analysis. Detailed chronological and functional description of an actual or hypothetical threat or group of threats. Sequence of actions that involve interaction with system resulting in a threat scenario. A threat scenario shall include: asset targeted by the threat, cybersecurity property which is compromised, compromise cause of the cybersecurity property. Threat scenarios give a detailed and concrete description of applicable threats, like: ransomware, phishing, spoofing, denial of service"
+InformationItem,18-50,Supplier evaluation criteria,CS_PAM_2.0,null,null,"Expectations for conformity, to be fulfilled by suppliers. Links from the expectations to national/international/domain-specific standards/laws/regulations. Requirements' conformity evidence to be provided by the potential suppliers or assessed by the acquiring organization. Agreed exceptions to the requirements"
+ProcessOutcome,ACQ.4.OUT.1,null,ASPICE_PAM_4.1,null,"The joint activities, as agreed between the customer and the supplier, are performed.",null
+ProcessOutcome,ACQ.4.OUT.2,null,ASPICE_PAM_4.1,null,"All information, agreed upon for exchange, is communicated regularly between the customer and the supplier.",null
+ProcessOutcome,ACQ.4.OUT.3,null,ASPICE_PAM_4.1,null,Performance of the supplier is monitored against the agreements.,null
+ProcessOutcome,ACQ.4.OUT.4,null,ASPICE_PAM_4.1,null,"The changes to the agreement, if needed, are negotiated between the customer and the supplier and documented in the agreement.",null
+ProcessOutcome,SPL.2.OUT.1,null,ASPICE_PAM_4.1,null,The contents of the product releases are determined.,null
+ProcessOutcome,SPL.2.OUT.2,null,ASPICE_PAM_4.1,null,The release package is assembled from configured items.,null
+ProcessOutcome,SPL.2.OUT.3,null,ASPICE_PAM_4.1,null,The release documentation is defined and produced.,null
+ProcessOutcome,SPL.2.OUT.4,null,ASPICE_PAM_4.1,null,The release approval is performed against the defined criteria.,null
+ProcessOutcome,SPL.2.OUT.5,null,ASPICE_PAM_4.1,null,The release package is made available to the intended customer.,null
+ProcessOutcome,SYS.1.OUT.1,null,ASPICE_PAM_4.1,null,Relevant stakeholders are identified.,null
+ProcessOutcome,SYS.1.OUT.2,null,ASPICE_PAM_4.1,null,Continuing communication with the stakeholder is established.,null
+ProcessOutcome,SYS.1.OUT.3,null,ASPICE_PAM_4.1,null,"The stakeholder expectations are understood, and the requirements derived from them are defined and agreed upon.",null
+ProcessOutcome,SYS.1.OUT.4,null,ASPICE_PAM_4.1,null,The stakeholder requirements changes arising from stakeholder needs are analyzed to enable associated risk assessment and impact management.,null
+ProcessOutcome,SYS.1.OUT.5,null,ASPICE_PAM_4.1,null,The status of each stakeholder requirement is transparent for all affected parties.,null
+ProcessOutcome,SYS.2.OUT.1,null,ASPICE_PAM_4.1,null,The system requirements are specified.,null
+ProcessOutcome,SYS.2.OUT.2,null,ASPICE_PAM_4.1,null,The system requirements are structured and prioritized.,null
+ProcessOutcome,SYS.2.OUT.3,null,ASPICE_PAM_4.1,null,The system requirements are analyzed for correctness and technical feasibility.,null
+ProcessOutcome,SYS.2.OUT.4,null,ASPICE_PAM_4.1,null,The impact of the system requirements on the operating environment is analyzed.,null
+ProcessOutcome,SYS.2.OUT.5,null,ASPICE_PAM_4.1,null,Consistency and bidirectional traceability are established between the system requirements and the stakeholder requirements.,null
+ProcessOutcome,SYS.2.OUT.6,null,ASPICE_PAM_4.1,null,The system requirements are agreed and communicated to all affected parties.,null
+ProcessOutcome,SYS.3.OUT.1,null,ASPICE_PAM_4.1,null,"A system architecture is designed including a definition of the system elements with their behavior, their interfaces, their relationships, and their interactions.",null
+ProcessOutcome,SYS.3.OUT.2,null,ASPICE_PAM_4.1,null,"The system architecture is analyzed against the defined criteria, and the special characteristics are identified.",null
+ProcessOutcome,SYS.3.OUT.3,null,ASPICE_PAM_4.1,null,Consistency and bidirectional traceability are established between the system architecture and the system requirements.,null
+ProcessOutcome,SYS.3.OUT.4,null,ASPICE_PAM_4.1,null,The agreed system architecture and the special characteristics are communicated to all affected parties.,null
+ProcessOutcome,SYS.4.OUT.1,null,ASPICE_PAM_4.1,null,"Verification measures are specified for the system integration verification of the integrated system elements based on the system architecture, including the interfaces of, and interactions between, the system elements.",null
+ProcessOutcome,SYS.4.OUT.2,null,ASPICE_PAM_4.1,null,The system elements are integrated up to a complete integrated system consistent with the release scope.,null
+ProcessOutcome,SYS.4.OUT.3,null,ASPICE_PAM_4.1,null,"Verification measures are selected according to the release scope considering criteria, including criteria for regression verification.",null
+ProcessOutcome,SYS.4.OUT.4,null,ASPICE_PAM_4.1,null,"The integrated system elements are verified using the selected verification measures, and the results of the system integration verification are recorded.",null
+ProcessOutcome,SYS.4.OUT.5,null,ASPICE_PAM_4.1,null,Consistency and bidirectional traceability are established between verification measures and the elements of the system architecture.,null
+ProcessOutcome,SYS.4.OUT.6,null,ASPICE_PAM_4.1,null,Bidirectional traceability between the verification results and the verification measures is established.,null
+ProcessOutcome,SYS.4.OUT.7,null,ASPICE_PAM_4.1,null,Results of the system integration and integration verification are summarized and communicated to all affected parties.,null
+ProcessOutcome,SYS.5.OUT.1,null,ASPICE_PAM_4.1,null,Verification measures are specified for the verification of the system based on the system requirements.,null
+ProcessOutcome,SYS.5.OUT.2,null,ASPICE_PAM_4.1,null,"Verification measures are selected according to the release scope considering criteria, including criteria for regression verification.",null
+ProcessOutcome,SYS.5.OUT.3,null,ASPICE_PAM_4.1,null,The integrated system is verified using the selected verification measures and the results of the system verification are recorded.,null
+ProcessOutcome,SYS.5.OUT.4,null,ASPICE_PAM_4.1,null,Consistency and bidirectional traceability are established between verification measures and the system requirements.,null
+ProcessOutcome,SYS.5.OUT.5,null,ASPICE_PAM_4.1,null,Bidirectional traceability is established between the verification results and the verification measures.,null
+ProcessOutcome,SYS.5.OUT.6,null,ASPICE_PAM_4.1,null,Verification results are summarized and communicated to all affected parties.,null
+ProcessOutcome,SWE.1.OUT.1,null,ASPICE_PAM_4.1,null,The software requirements are specified.,null
+ProcessOutcome,SWE.1.OUT.2,null,ASPICE_PAM_4.1,null,The software requirements are structured and prioritized.,null
+ProcessOutcome,SWE.1.OUT.3,null,ASPICE_PAM_4.1,null,The software requirements are analyzed for correctness and technical feasibility.,null
+ProcessOutcome,SWE.1.OUT.4,null,ASPICE_PAM_4.1,null,The impact of the software requirements on the operating environment is analyzed.,null
+ProcessOutcome,SWE.1.OUT.5,null,ASPICE_PAM_4.1,null,Consistency and bidirectional traceability are established between the software requirements and the system requirements.,null
+ProcessOutcome,SWE.1.OUT.6,null,ASPICE_PAM_4.1,null,Consistency and bidirectional traceability are established between the software requirements and the system architecture.,null
+ProcessOutcome,SWE.1.OUT.7,null,ASPICE_PAM_4.1,null,The software requirements are agreed and communicated to all affected parties.,null
+ProcessOutcome,SWE.2.OUT.1,null,ASPICE_PAM_4.1,null,A software architecture is designed including the static and dynamic aspects.,null
+ProcessOutcome,SWE.2.OUT.2,null,ASPICE_PAM_4.1,null,The software architecture is analyzed against the defined criteria.,null
+ProcessOutcome,SWE.2.OUT.3,null,ASPICE_PAM_4.1,null,Consistency and bidirectional traceability are established between the software architecture and the software requirements.,null
+ProcessOutcome,SWE.2.OUT.4,null,ASPICE_PAM_4.1,null,The software architecture is agreed and communicated to all affected parties.,null
+ProcessOutcome,SWE.3.OUT.1,null,ASPICE_PAM_4.1,null,A detailed design is specified including the static and dynamic aspects.,null
+ProcessOutcome,SWE.3.OUT.2,null,ASPICE_PAM_4.1,null,Software units as specified in the software detailed design are constructed.,null
+ProcessOutcome,SWE.3.OUT.3,null,ASPICE_PAM_4.1,null,Consistency and bidirectional traceability are established between the software detailed design and the software architecture.,null
+ProcessOutcome,SWE.3.OUT.4,null,ASPICE_PAM_4.1,null,Consistency and bidirectional traceability are established between the source code and the software detailed design.,null
+ProcessOutcome,SWE.3.OUT.5,null,ASPICE_PAM_4.1,null,Consistency and bidirectional traceability are established between the software detailed design and the software requirements.,null
+ProcessOutcome,SWE.3.OUT.6,null,ASPICE_PAM_4.1,null,The source code and the agreed software detailed design are communicated to all affected parties.,null
+ProcessOutcome,SWE.4.OUT.1,null,ASPICE_PAM_4.1,null,Verification measures for the software unit verification are specified.,null
+ProcessOutcome,SWE.4.OUT.2,null,ASPICE_PAM_4.1,null,"Software unit verification measures are selected according to the release scope, including criteria for regression verification.",null
+ProcessOutcome,SWE.4.OUT.3,null,ASPICE_PAM_4.1,null,"The Software units are verified using the selected verification measures, and the results are recorded.",null
+ProcessOutcome,SWE.4.OUT.4,null,ASPICE_PAM_4.1,null,Consistency and bidirectional traceability are established between verification measures and the software units.,null
+ProcessOutcome,SWE.4.OUT.5,null,ASPICE_PAM_4.1,null,Bidirectional traceability is established between the verification results and the verification measures.,null
+ProcessOutcome,SWE.4.OUT.6,null,ASPICE_PAM_4.1,null,Results of the software unit verification are summarized and communicated to all affected parties.,null
+ProcessOutcome,SWE.5.OUT.1,null,ASPICE_PAM_4.1,null,"Verification measures are specified for the software integration verification of the integrated software elements based on the software architecture and the detailed design, including the interfaces of, and interactions between, the software components.",null
+ProcessOutcome,SWE.5.OUT.2,null,ASPICE_PAM_4.1,null,Verification measures for the software components are specified to provide evidence for compliance of the software components with the software components' behavior and interfaces.,null
+ProcessOutcome,SWE.5.OUT.3,null,ASPICE_PAM_4.1,null,The Software elements are integrated up to a complete integrated software.,null
+ProcessOutcome,SWE.5.OUT.4,null,ASPICE_PAM_4.1,null,"Verification measures are selected according to the release scope considering criteria, including criteria for regression verification.",null
+ProcessOutcome,SWE.5.OUT.5,null,ASPICE_PAM_4.1,null,"The software components are verified using the selected verification measures, and the results of the integration verification are recorded.",null
+ProcessOutcome,SWE.5.OUT.6,null,ASPICE_PAM_4.1,null,"The integrated software elements are verified using the selected verification measures, and the results of the integration verification are recorded.",null
+ProcessOutcome,SWE.5.OUT.7,null,ASPICE_PAM_4.1,null,Consistency and bidirectional traceability are established between the verification measures and the software architecture as well as the detailed design.,null
+ProcessOutcome,SWE.5.OUT.8,null,ASPICE_PAM_4.1,null,Bidirectional traceability is established between the verification results and the verification measures.,null
+ProcessOutcome,SWE.5.OUT.9,null,ASPICE_PAM_4.1,null,The results of the software component verification and software elements integration verification are summarized and communicated to all affected parties.,null
+ProcessOutcome,SWE.6.OUT.1,null,ASPICE_PAM_4.1,null,Verification measures are specified for the verification of the software based on the software requirements.,null
+ProcessOutcome,SWE.6.OUT.2,null,ASPICE_PAM_4.1,null,"Verification measures are selected according to the release scope considering criteria, including criteria for regression verification.",null
+ProcessOutcome,SWE.6.OUT.3,null,ASPICE_PAM_4.1,null,The integrated software is verified using the selected verification measures and the results of the software verification are recorded.,null
+ProcessOutcome,SWE.6.OUT.4,null,ASPICE_PAM_4.1,null,Consistency and bidirectional traceability are established between verification measures and software requirements.,null
+ProcessOutcome,SWE.6.OUT.5,null,ASPICE_PAM_4.1,null,Bidirectional traceability is established between the verification results and the verification measures.,null
+ProcessOutcome,SWE.6.OUT.6,null,ASPICE_PAM_4.1,null,The results of the software verification are summarized and communicated to all affected parties.,null
+ProcessOutcome,VAL.1.OUT.1,null,ASPICE_PAM_4.1,null,Validation measures are selected considering criteria for the regression verification.,null
+ProcessOutcome,VAL.1.OUT.2,null,ASPICE_PAM_4.1,null,"The product is validated using the selected validation measures, and the results of validation are recorded.",null
+ProcessOutcome,VAL.1.OUT.3,null,ASPICE_PAM_4.1,null,"Consistency and bidirectional traceability are established between validation measures and the stakeholder requirements, if applicable; and bidirectional traceability is established between the validation results and the validation measures.",null
+ProcessOutcome,VAL.1.OUT.4,null,ASPICE_PAM_4.1,null,The results of the validation are summarized and communicated to all affected parties.,null
+ProcessOutcome,MLE.1.OUT.1,null,ASPICE_PAM_4.1,null,The ML requirements including ML data requirements are identified and specified based on the software requirements and the components of the software architecture.,null
+ProcessOutcome,MLE.1.OUT.2,null,ASPICE_PAM_4.1,null,The ML requirements are structured and prioritized.,null
+ProcessOutcome,MLE.1.OUT.3,null,ASPICE_PAM_4.1,null,The ML requirements are analyzed for correctness and verifiability.,null
+ProcessOutcome,MLE.1.OUT.4,null,ASPICE_PAM_4.1,null,The impact of the ML requirements on the ML operating environment is analyzed.,null
+ProcessOutcome,MLE.1.OUT.5,null,ASPICE_PAM_4.1,null,"Consistency and bidirectional traceability are established between the ML requirements and the software requirements, and between the ML requirements and the software architecture.",null
+ProcessOutcome,MLE.1.OUT.6,null,ASPICE_PAM_4.1,null,The ML requirements are agreed and communicated to all affected parties.,null
+ProcessOutcome,MLE.2.OUT.1,null,ASPICE_PAM_4.1,null,A ML architecture is developed.,null
+ProcessOutcome,MLE.2.OUT.2,null,ASPICE_PAM_4.1,null,The hyperparameter ranges and the initial values are determined as a basis for the training.,null
+ProcessOutcome,MLE.2.OUT.3,null,ASPICE_PAM_4.1,null,An analysis of the ML architectural elements is conducted based on defined criteria.,null
+ProcessOutcome,MLE.2.OUT.4,null,ASPICE_PAM_4.1,null,The interfaces of the ML architectural elements are defined.,null
+ProcessOutcome,MLE.2.OUT.5,null,ASPICE_PAM_4.1,null,Consistency and bidirectional traceability are established between the ML architectural elements and the ML requirements.,null
+ProcessOutcome,MLE.2.OUT.6,null,ASPICE_PAM_4.1,null,The ML architecture is agreed and communicated to all affected parties.,null
+ProcessOutcome,MLE.3.OUT.1,null,ASPICE_PAM_4.1,null,An ML training and validation approach is specified.,null
+ProcessOutcome,MLE.3.OUT.2,null,ASPICE_PAM_4.1,null,The data set for ML training and ML validation is created.,null
+ProcessOutcome,MLE.3.OUT.3,null,ASPICE_PAM_4.1,null,"The ML model, including the hyperparameter values, is optimized to meet the defined ML requirements.",null
+ProcessOutcome,MLE.3.OUT.4,null,ASPICE_PAM_4.1,null,Consistency and bidirectional traceability are established between the ML training and validation data set and the ML data requirements.,null
+ProcessOutcome,MLE.3.OUT.5,null,ASPICE_PAM_4.1,null,"The results of the optimization are summarized, and the trained ML model is agreed and communicated to all affected parties.",null
+ProcessOutcome,MLE.4.OUT.1,null,ASPICE_PAM_4.1,null,An ML test approach is defined.,null
+ProcessOutcome,MLE.4.OUT.2,null,ASPICE_PAM_4.1,null,An ML test data set is created.,null
+ProcessOutcome,MLE.4.OUT.3,null,ASPICE_PAM_4.1,null,The trained ML model is tested.,null
+ProcessOutcome,MLE.4.OUT.4,null,ASPICE_PAM_4.1,null,The deployed ML model is derived from the trained ML model and tested.,null
+ProcessOutcome,MLE.4.OUT.5,null,ASPICE_PAM_4.1,null,"Consistency and bidirectional traceability are established between the ML test approach and the ML requirements, and the ML test data set and the ML data requirements; and bidirectional traceability is established between the ML test approach and the ML test results.",null
+ProcessOutcome,MLE.4.OUT.6,null,ASPICE_PAM_4.1,null,Results of the ML model testing are summarized and communicated with the deployed ML model to all affected parties.,null
+ProcessOutcome,HWE.1.OUT.1,null,ASPICE_PAM_4.1,null,The hardware requirements are specified.,null
+ProcessOutcome,HWE.1.OUT.2,null,ASPICE_PAM_4.1,null,The hardware requirements are structured and prioritized.,null
+ProcessOutcome,HWE.1.OUT.3,null,ASPICE_PAM_4.1,null,The hardware requirements are analyzed for correctness and technical feasibility.,null
+ProcessOutcome,HWE.1.OUT.4,null,ASPICE_PAM_4.1,null,The impact of the hardware requirements on the operating environment is analyzed.,null
+ProcessOutcome,HWE.1.OUT.5,null,ASPICE_PAM_4.1,null,Consistency and bidirectional traceability are established between the hardware requirements and the system requirements.,null
+ProcessOutcome,HWE.1.OUT.6,null,ASPICE_PAM_4.1,null,Consistency and bidirectional traceability are established between the hardware requirements and the system architectural design.,null
+ProcessOutcome,HWE.1.OUT.7,null,ASPICE_PAM_4.1,null,The hardware requirements are agreed and communicated to all affected parties.,null
+ProcessOutcome,HWE.2.OUT.1,null,ASPICE_PAM_4.1,null,"A hardware architecture and hardware detailed design is developed that identifies the elements of the hardware and describes their behavior as well as their interfaces, and the dynamic interactions of the hardware elements.",null
+ProcessOutcome,HWE.2.OUT.2,null,ASPICE_PAM_4.1,null,"The hardware architecture and the hardware detailed design is analyzed, and the special characteristics are identified.",null
+ProcessOutcome,HWE.2.OUT.3,null,ASPICE_PAM_4.1,null,Consistency and bidirectional traceability are established between the hardware requirements and the hardware design.,null
+ProcessOutcome,HWE.2.OUT.4,null,ASPICE_PAM_4.1,null,Hardware production data are derived from the hardware detailed design and communicated to all affected parties.,null
+ProcessOutcome,HWE.2.OUT.5,null,ASPICE_PAM_4.1,null,The hardware architecture and hardware detailed design and the special characteristics are agreed and communicated to all affected parties.,null
+ProcessOutcome,HWE.3.OUT.1,null,ASPICE_PAM_4.1,null,"Verification measures are specified for the verification of the hardware against the hardware design, including the interfaces between the hardware elements and the dynamic aspects.",null
+ProcessOutcome,HWE.3.OUT.2,null,ASPICE_PAM_4.1,null,"Verification measures are selected according to the release scope considering criteria, including criteria for regression verification.",null
+ProcessOutcome,HWE.3.OUT.3,null,ASPICE_PAM_4.1,null,"The verification is performed on production data compliant samples using the selected verification measures, and the verification results are recorded.",null
+ProcessOutcome,HWE.3.OUT.4,null,ASPICE_PAM_4.1,null,Consistency and bidirectional traceability are established between the hardware elements and the verification measures.,null
+ProcessOutcome,HWE.3.OUT.5,null,ASPICE_PAM_4.1,null,Bidirectional traceability is established between the verification measures and the verification results.,null
+ProcessOutcome,HWE.3.OUT.6,null,ASPICE_PAM_4.1,null,The verification results are summarized and communicated to all affected parties.,null
+ProcessOutcome,HWE.4.OUT.1,null,ASPICE_PAM_4.1,null,Verification measures are specified for the verification of the hardware against the hardware requirements.,null
+ProcessOutcome,HWE.4.OUT.2,null,ASPICE_PAM_4.1,null,"Verification measures are selected according to the release scope considering criteria, including the criteria for the regression verification.",null
+ProcessOutcome,HWE.4.OUT.3,null,ASPICE_PAM_4.1,null,"The verification is performed, if applicable on production data compliant samples, using the selected verification measures, and the verification results are recorded.",null
+ProcessOutcome,HWE.4.OUT.4,null,ASPICE_PAM_4.1,null,Consistency and bidirectional traceability are established between the verification measures and the hardware requirements.,null
+ProcessOutcome,HWE.4.OUT.5,null,ASPICE_PAM_4.1,null,Bidirectional traceability is established between the verification measures and the verification results.,null
+ProcessOutcome,HWE.4.OUT.6,null,ASPICE_PAM_4.1,null,The verification results are summarized and communicated to all affected parties.,null
+ProcessOutcome,SUP.1.OUT.1,null,ASPICE_PAM_4.1,null,Quality assurance is performed independently and objectively without conflicts of interest.,null
+ProcessOutcome,SUP.1.OUT.2,null,ASPICE_PAM_4.1,null,Criteria for the quality of work products and process performance are defined.,null
+ProcessOutcome,SUP.1.OUT.3,null,ASPICE_PAM_4.1,null,"Conformance of work products and process performance with the defined criteria and targets is verified, documented and communicated to all affected parties.",null
+ProcessOutcome,SUP.1.OUT.4,null,ASPICE_PAM_4.1,null,"The non-conformances are tracked, resolved, and further prevented.",null
+ProcessOutcome,SUP.1.OUT.5,null,ASPICE_PAM_4.1,null,The non-conformances are escalated to appropriate levels of management.,null
+ProcessOutcome,SUP.1.OUT.6,null,ASPICE_PAM_4.1,null,Management ensures that the escalated non-conformances are resolved.,null
+ProcessOutcome,SUP.8.OUT.1,null,ASPICE_PAM_4.1,null,Selection criteria for configuration items are defined and applied.,null
+ProcessOutcome,SUP.8.OUT.2,null,ASPICE_PAM_4.1,null,The configuration item properties are defined.,null
+ProcessOutcome,SUP.8.OUT.3,null,ASPICE_PAM_4.1,null,Configuration management is established.,null
+ProcessOutcome,SUP.8.OUT.4,null,ASPICE_PAM_4.1,null,The modifications are controlled.,null
+ProcessOutcome,SUP.8.OUT.5,null,ASPICE_PAM_4.1,null,Baselining is applied.,null
+ProcessOutcome,SUP.8.OUT.6,null,ASPICE_PAM_4.1,null,The status of the configuration items is recorded and reported.,null
+ProcessOutcome,SUP.8.OUT.7,null,ASPICE_PAM_4.1,null,The completeness and consistency of the baselines is ensured.,null
+ProcessOutcome,SUP.8.OUT.8,null,ASPICE_PAM_4.1,null,The availability of backup and recovery mechanisms is verified.,null
+ProcessOutcome,SUP.9.OUT.1,null,ASPICE_PAM_4.1,null,"The problems are uniquely identified, recorded and classified.",null
+ProcessOutcome,SUP.9.OUT.2,null,ASPICE_PAM_4.1,null,The problems are analyzed and assessed to determine an appropriate solution.,null
+ProcessOutcome,SUP.9.OUT.3,null,ASPICE_PAM_4.1,null,Problem resolution is initiated.,null
+ProcessOutcome,SUP.9.OUT.4,null,ASPICE_PAM_4.1,null,The problems are tracked to closure.,null
+ProcessOutcome,SUP.9.OUT.5,null,ASPICE_PAM_4.1,null,The status of the problems including the trends identified are reported to the stakeholders.,null
+ProcessOutcome,SUP.10.OUT.1,null,ASPICE_PAM_4.1,null,The requests for changes are recorded and identified.,null
+ProcessOutcome,SUP.10.OUT.2,null,ASPICE_PAM_4.1,null,"The change requests are analyzed, dependencies and relationships to other change requests are identified, and the impact is estimated.",null
+ProcessOutcome,SUP.10.OUT.3,null,ASPICE_PAM_4.1,null,The change requests are approved before implementation and prioritized accordingly.,null
+ProcessOutcome,SUP.10.OUT.4,null,ASPICE_PAM_4.1,null,Bidirectional traceability is established between the change requests and the affected work products.,null
+ProcessOutcome,SUP.10.OUT.5,null,ASPICE_PAM_4.1,null,The implementation of change requests is confirmed.,null
+ProcessOutcome,SUP.10.OUT.6,null,ASPICE_PAM_4.1,null,The change requests are tracked to closure and the status of the change requests is communicated to all affected parties.,null
+ProcessOutcome,SUP.11.OUT.1,null,ASPICE_PAM_4.1,null,An ML data management system including an ML data lifecycle is established.,null
+ProcessOutcome,SUP.11.OUT.2,null,ASPICE_PAM_4.1,null,An ML data quality approach is developed including ML data quality criteria.,null
+ProcessOutcome,SUP.11.OUT.3,null,ASPICE_PAM_4.1,null,The collected ML data are processed for consistency with the ML data requirements.,null
+ProcessOutcome,SUP.11.OUT.4,null,ASPICE_PAM_4.1,null,The ML data are verified against the defined ML data quality criteria and updated as needed.,null
+ProcessOutcome,SUP.11.OUT.5,null,ASPICE_PAM_4.1,null,The ML data are agreed and communicated to all affected parties.,null
+ProcessOutcome,MAN.3.OUT.1,null,ASPICE_PAM_4.1,null,The scope of the work for the project is defined.,null
+ProcessOutcome,MAN.3.OUT.2,null,ASPICE_PAM_4.1,null,The feasibility of achieving the goals of the project with available resources and constraints is evaluated.,null
+ProcessOutcome,MAN.3.OUT.3,null,ASPICE_PAM_4.1,null,The activities and resources necessary to complete the work are sized and estimated.,null
+ProcessOutcome,MAN.3.OUT.4,null,ASPICE_PAM_4.1,null,"Interfaces within the project, and with other projects and organizational units, are identified and monitored.",null
+ProcessOutcome,MAN.3.OUT.5,null,ASPICE_PAM_4.1,null,"Plans for the execution of the project are developed, implemented and maintained.",null
+ProcessOutcome,MAN.3.OUT.6,null,ASPICE_PAM_4.1,null,Progress of the project is monitored and reported.,null
+ProcessOutcome,MAN.3.OUT.7,null,ASPICE_PAM_4.1,null,Adjustment is performed when project goals are not achieved.,null
+ProcessOutcome,MAN.5.OUT.1,null,ASPICE_PAM_4.1,null,The sources of risks are identified and regularly updated.,null
+ProcessOutcome,MAN.5.OUT.2,null,ASPICE_PAM_4.1,null,Potential undesirable events are identified as they develop during the conduct of the project.,null
+ProcessOutcome,MAN.5.OUT.3,null,ASPICE_PAM_4.1,null,The risks are analyzed and the priority in which to apply resources to treatment of these risks is determined.,null
+ProcessOutcome,MAN.5.OUT.4,null,ASPICE_PAM_4.1,null,"The risk measures are defined, applied, and assessed to determine changes in the statuses of the risks and the progress of the risk treatment activities.",null
+ProcessOutcome,MAN.5.OUT.5,null,ASPICE_PAM_4.1,null,"Appropriate treatment is taken to correct or avoid the impact of risk based on its priority, probability, and consequence or other defined risk threshold.",null
+ProcessOutcome,MAN.6.OUT.1,null,ASPICE_PAM_4.1,null,The measurement information needs that are necessary to evaluate the achievement of process objectives and the achievement of desired work products are identified.,null
+ProcessOutcome,MAN.6.OUT.2,null,ASPICE_PAM_4.1,null,"An appropriate set of metrics, driven by the information needs, are identified and/or developed.",null
+ProcessOutcome,MAN.6.OUT.3,null,ASPICE_PAM_4.1,null,Measurement activities are identified and performed.,null
+ProcessOutcome,MAN.6.OUT.4,null,ASPICE_PAM_4.1,null,"The required metrics are collected, stored, analyzed, and the results interpreted.",null
+ProcessOutcome,MAN.6.OUT.5,null,ASPICE_PAM_4.1,null,Metrics are used to support decisions and provide an objective basis for communication.,null
+ProcessOutcome,PIM.3.OUT.1,null,ASPICE_PAM_4.1,null,A commitment is established to provide resources to sustain improvement measures.,null
+ProcessOutcome,PIM.3.OUT.2,null,ASPICE_PAM_4.1,null,Issues arising from the organization's internal or external environment are identified as improvement opportunities and justified as reasons for change.,null
+ProcessOutcome,PIM.3.OUT.3,null,ASPICE_PAM_4.1,null,An analysis of the current status of the existing processes is performed.,null
+ProcessOutcome,PIM.3.OUT.4,null,ASPICE_PAM_4.1,null,"Improvement goals are identified and prioritized, and consequent changes to the processes are defined, documented and implemented.",null
+ProcessOutcome,PIM.3.OUT.5,null,ASPICE_PAM_4.1,null,"The effects of process implementations are monitored, measured and confirmed in relation to the identified improvement goals.",null
+ProcessOutcome,PIM.3.OUT.6,null,ASPICE_PAM_4.1,null,The knowledge gained from the improvement is communicated within the organization.,null
+ProcessOutcome,REU.2.OUT.1,null,ASPICE_PAM_4.1,null,Products for reuse are selected using defined criteria.,null
+ProcessOutcome,REU.2.OUT.2,null,ASPICE_PAM_4.1,null,The products for reuse are analyzed for portability and interoperability.,null
+ProcessOutcome,REU.2.OUT.3,null,ASPICE_PAM_4.1,null,The limitations for reuse are defined and communicated.,null
+ProcessOutcome,REU.2.OUT.4,null,ASPICE_PAM_4.1,null,The products for reuse are verified.,null
+ProcessOutcome,REU.2.OUT.5,null,ASPICE_PAM_4.1,null,The products for reuse are provided to affected parties.,null
+ProcessOutcome,REU.2.OUT.6,null,ASPICE_PAM_4.1,null,A communication mechanism is established with the reuse product provider.,null
+BasePractice,ACQ.4.BP1,null,ASPICE_PAM_4.1,null,"Agree on and maintain joint activities, joint interfaces, and information to be exchanged. Establish and maintain an agreement on information to be exchanged, on joint activities, joint interfaces, responsibilities, type and frequency of joint activities, communications, meetings, status reports, and reviews.",null
+BasePractice,ACQ.4.BP2,null,ASPICE_PAM_4.1,null,Exchange all agreed information. Use the defined joint interfaces between customer and supplier for the exchange of all agreed information.,null
+BasePractice,ACQ.4.BP3,null,ASPICE_PAM_4.1,null,"Review development work products with the supplier. Review development work products with the supplier on the agreed regular basis, covering technical aspects, problems and risks. Track the open measures.",null
+BasePractice,ACQ.4.BP4,null,ASPICE_PAM_4.1,null,"Review progress of the supplier. Review progress of the supplier regarding schedule, quality, and cost on the agreed regular basis. Track the open measures to closure and perform the risk mitigation activities.",null
+BasePractice,ACQ.4.BP5,null,ASPICE_PAM_4.1,null,Act to correct the deviations. Take action when agreed objectives are not achieved. Negotiate the changes to the objectives and document them in the agreements.,null
+BasePractice,SPL.2.BP1,null,ASPICE_PAM_4.1,null,"Define and agree the functional content of the releases. Define and agree the functionality to be included with the intended customer, and define the release criteria for each release.",null
+BasePractice,SPL.2.BP2,null,ASPICE_PAM_4.1,null,Define the release package. Define the release as well as supporting tools and information.,null
+BasePractice,SPL.2.BP3,null,ASPICE_PAM_4.1,null,Ensure a unique identification of each release. Ensure a unique identification of the releases based upon the intended purpose and expectations of the releases.,null
+BasePractice,SPL.2.BP4,null,ASPICE_PAM_4.1,null,Build the release from items under configuration control. Build the release from items under configuration control to ensure integrity.,null
+BasePractice,SPL.2.BP5,null,ASPICE_PAM_4.1,null,Ensure the release approval before the delivery. The criteria for the release are satisfied before the delivery takes place.,null
+BasePractice,SPL.2.BP6,null,ASPICE_PAM_4.1,null,Provide a release note. Each release is accompanied by information detailing the key characteristics of the release.,null
+BasePractice,SPL.2.BP7,null,ASPICE_PAM_4.1,null,"Communicate the type, service level and duration of support for each release. Identify and communicate the type, service level and duration of support for a release.",null
+BasePractice,SPL.2.BP8,null,ASPICE_PAM_4.1,null,Deliver the release package to the intended customer. Deliver the release package to the intended customer as per the agreement.,null
+BasePractice,SYS.1.BP1,null,ASPICE_PAM_4.1,null,"Identify stakeholders and obtain their expectations and requests. Identify relevant stakeholders. Obtain and define the stakeholder expectations and requests through direct solicitation of stakeholder input, and through review of stakeholder business proposals (where relevant) and other documents containing inputs to the stakeholder requirements, and consideration of the target operating and hardware environment.",null
+BasePractice,SYS.1.BP2,null,ASPICE_PAM_4.1,null,Agree on the requirements. Formalize the stakeholder's expectations and requests into requirements. Reach a common understanding and agree on the set of stakeholder requirements among the affected parties.,null
+BasePractice,SYS.1.BP3,null,ASPICE_PAM_4.1,null,"Analyze the stakeholder requirements changes. Analyze all changes made to the agreed stakeholder requirements. Assess the impact and risks, and initiate appropriate change control and mitigation actions.",null
+BasePractice,SYS.1.BP4,null,ASPICE_PAM_4.1,null,Communicate the requirements' status. Ensure all affected parties can be aware of the status and disposition of the requirements concerning them including the changes and can communicate necessary information and data.,null
+BasePractice,SYS.2.BP1,null,ASPICE_PAM_4.1,null,Specify the system requirements. Use the stakeholder requirements to identify and document the functional and non-functional requirements for the system according to the defined characteristics for requirements.,null
+BasePractice,SYS.2.BP2,null,ASPICE_PAM_4.1,null,Structure the system requirements. Structure and prioritize the system requirements.,null
+BasePractice,SYS.2.BP3,null,ASPICE_PAM_4.1,null,"Analyze the system requirements. Analyze the specified system requirements including their interdependencies to ensure correctness, technical feasibility, and to support project management regarding project estimates.",null
+BasePractice,SYS.2.BP4,null,ASPICE_PAM_4.1,null,Analyze the impact on the system context. Analyze the impact that the system requirements will have on the elements in the relevant system context.,null
+BasePractice,SYS.2.BP5,null,ASPICE_PAM_4.1,null,Ensure consistency and establish bidirectional traceability. Ensure consistency and establish bidirectional traceability between the system requirements and the stakeholder requirements.,null
+BasePractice,SYS.2.BP6,null,ASPICE_PAM_4.1,null,"Communicate the agreed system requirements and the impact on the system context. Communicate the agreed system requirements, and the results of the impact analysis on the system context, to all affected parties.",null
+BasePractice,SYS.3.BP1,null,ASPICE_PAM_4.1,null,"Specify the static aspects of the system architecture. Specify and document the static aspects of the system architecture with respect to the functional and non-functional system requirements, including the external interfaces and a defined set of system elements with their interfaces and relationships.",null
+BasePractice,SYS.3.BP2,null,ASPICE_PAM_4.1,null,Specify the dynamic aspects of the system architecture. Specify and document the dynamic aspects of the system architecture with respect to the functional and non-functional system requirements including the behavior of the system elements and their interaction in different system modes.,null
+BasePractice,SYS.3.BP3,null,ASPICE_PAM_4.1,null,"Analyze the system architecture. Analyze the system architecture regarding relevant technical design aspects related to the product lifecycle, and to support the project management regarding project estimates, and derive the special characteristics for non-software system elements. Document the rationales for the system architectural design decisions.",null
+BasePractice,SYS.3.BP4,null,ASPICE_PAM_4.1,null,Ensure consistency and establish bidirectional traceability. Ensure consistency and establish bidirectional traceability between the elements of the system architecture and the system requirements that represent properties or characteristics of the physical end product.,null
+BasePractice,SYS.3.BP5,null,ASPICE_PAM_4.1,null,"Communicate the agreed system architecture. Communicate the agreed system architecture, including the special characteristics, to all affected parties.",null
+BasePractice,SYS.4.BP1,null,ASPICE_PAM_4.1,null,"Specify verification measures for the system integration. Specify verification measures, based on a defined sequence and preconditions for the integration of system elements against the static and dynamic aspects of the system architecture, including techniques for the verification measures, pass/fail criteria for the verification measures, a definition of entry and exit criteria for the verification measures, necessary sequence of the verification measures, and the required verification infrastructure and environment setup.",null
+BasePractice,SYS.4.BP2,null,ASPICE_PAM_4.1,null,Select verification measures. Document the selection of verification measures for each integration step considering selection criteria including criteria for the regression verification. The documented selection of verification measures shall have sufficient coverage according to the release scope.,null
+BasePractice,SYS.4.BP3,null,ASPICE_PAM_4.1,null,"Integrate the system elements and perform the integration verification. Integrate the system elements until the system is fully integrated according to the specified interfaces and interactions between the system elements, and according to the defined sequence and the defined preconditions. Perform the selected system integration verification measures. Record the verification measure data including pass/fail status and the corresponding verification measure data.",null
+BasePractice,SYS.4.BP4,null,ASPICE_PAM_4.1,null,Ensure consistency and establish bidirectional traceability. Ensure consistency and establish bidirectional traceability between the verification measures and the system architecture. Establish bidirectional traceability between the verification results and the verification measures.,null
+BasePractice,SYS.4.BP5,null,ASPICE_PAM_4.1,null,Summarize and communicate the results. Summarize the system integration and integration verification results and communicate them to all affected parties.,null
+BasePractice,SYS.5.BP1,null,ASPICE_PAM_4.1,null,"Specify verification measures for the system verification. Specify the verification measures for the system verification suitable to provide evidence for compliance with the functional and non-functional system requirements, including techniques for the verification measures, pass/fail criteria for the verification measures, a definition of entry and exit criteria for the verification measures, necessary sequence of the verification measures, and the required verification infrastructure and environment setup.",null
+BasePractice,SYS.5.BP2,null,ASPICE_PAM_4.1,null,Select verification measures. Document the selection of verification measures considering the selection criteria including criteria for the regression verification. The documented selection of verification measures shall have sufficient coverage according to the release scope.,null
+BasePractice,SYS.5.BP3,null,ASPICE_PAM_4.1,null,Perform the verification of the integrated system. Perform the verification of the integrated system using the selected verification measures. Record the verification results including pass/fail status and the corresponding verification measure data.,null
+BasePractice,SYS.5.BP4,null,ASPICE_PAM_4.1,null,Ensure consistency and establish bidirectional traceability. Ensure consistency and establish bidirectional traceability between the verification measures and the system requirements. Establish bidirectional traceability between the verification results and the verification measures.,null
+BasePractice,SYS.5.BP5,null,ASPICE_PAM_4.1,null,Summarize and communicate the results. Summarize the system verification results and communicate them to all affected parties.,null
+BasePractice,SWE.1.BP1,null,ASPICE_PAM_4.1,null,Specify the software requirements. Use the system requirements and the system architecture to identify and document the functional and non-functional requirements for the software according to the defined characteristics for requirements.,null
+BasePractice,SWE.1.BP2,null,ASPICE_PAM_4.1,null,Structure the software requirements. Structure and prioritize the software requirements.,null
+BasePractice,SWE.1.BP3,null,ASPICE_PAM_4.1,null,"Analyze the software requirements. Analyze the specified software requirements including their interdependencies to ensure correctness, technical feasibility, and to support project management regarding project estimates.",null
+BasePractice,SWE.1.BP4,null,ASPICE_PAM_4.1,null,Analyze the impact on the operating environment. Analyze the impact that the software requirements will have on the elements in the operating environment.,null
+BasePractice,SWE.1.BP5,null,ASPICE_PAM_4.1,null,Ensure consistency and establish bidirectional traceability. Ensure consistency and establish bidirectional traceability between the software requirements and the system architecture. Ensure consistency and establish bidirectional traceability between the software requirements and the system requirements.,null
+BasePractice,SWE.1.BP6,null,ASPICE_PAM_4.1,null,"Communicate the agreed software requirements and the impact on the operating environment. Communicate the agreed software requirements, and the results of the analysis of impact on the operating environment, to all affected parties.",null
+BasePractice,SWE.2.BP1,null,ASPICE_PAM_4.1,null,"Specify the static aspects of the software architecture. Specify and document the static aspects of the software architecture with respect to the functional and non-functional software requirements, including the external interfaces and a defined set of software components with their interfaces and relationships.",null
+BasePractice,SWE.2.BP2,null,ASPICE_PAM_4.1,null,"Specify the dynamic aspects of the software architecture. Specify and document the dynamic aspects of the software architecture with respect to the functional and non-functional software requirements, including the behavior of the software components and their interaction in different software modes, and concurrency aspects.",null
+BasePractice,SWE.2.BP3,null,ASPICE_PAM_4.1,null,"Analyze the software architecture. Analyze the software architecture regarding relevant technical design aspects, and to support the project management regarding project estimates. Document the rationales for the software architectural design decisions.",null
+BasePractice,SWE.2.BP4,null,ASPICE_PAM_4.1,null,Ensure consistency and establish bidirectional traceability. Ensure consistency and establish bidirectional traceability between the software architecture and the software requirements.,null
+BasePractice,SWE.2.BP5,null,ASPICE_PAM_4.1,null,Communicate the agreed software architecture. Communicate the agreed software architecture to all affected parties.,null
+BasePractice,SWE.3.BP1,null,ASPICE_PAM_4.1,null,"Specify the static aspects of the detailed design. For each software component specify the behavior of its software units, their static structure and relationships, their interfaces including valid data value ranges for the inputs and outputs (from the application domain perspective), and physical or measurement units applicable to the inputs and outputs (from the application domain perspective).",null
+BasePractice,SWE.3.BP2,null,ASPICE_PAM_4.1,null,"Specify the dynamic aspects of the detailed design. Specify and document the dynamic aspects of the detailed design with respect to the software architecture, including the interactions between relevant software units to fulfill the component's dynamic behavior.",null
+BasePractice,SWE.3.BP3,null,ASPICE_PAM_4.1,null,"Develop the software units. Develop and document the software units consistent with the detailed design, and according to the coding principles.",null
+BasePractice,SWE.3.BP4,null,ASPICE_PAM_4.1,null,Ensure consistency and establish bidirectional traceability. Ensure consistency and establish bidirectional traceability between the software detailed design and the software architecture. Ensure consistency and establish bidirectional traceability between the developed software units and the software detailed design. Ensure consistency and establish traceability between the software detailed design and the software requirements.,null
+BasePractice,SWE.3.BP5,null,ASPICE_PAM_4.1,null,Communicate the agreed software detailed design and the developed software units. Communicate the agreed software detailed design and the developed software units to all affected parties.,null
+BasePractice,SWE.4.BP1,null,ASPICE_PAM_4.1,null,"Specify software unit verification measures. Specify verification measures for each software unit defined in the software detailed design, including pass/fail criteria for verification measures, entry and exit criteria for verification measures, and the required verification infrastructure.",null
+BasePractice,SWE.4.BP2,null,ASPICE_PAM_4.1,null,Select software unit verification measures. Document the selection of verification measures considering selection criteria including criteria for the regression verification. The documented selection of verification measures shall have sufficient coverage according to the release scope.,null
+BasePractice,SWE.4.BP3,null,ASPICE_PAM_4.1,null,Verify the software units. Perform the software unit verification using the selected verification measures. Record the verification results including pass/fail status and corresponding verification measure data.,null
+BasePractice,SWE.4.BP4,null,ASPICE_PAM_4.1,null,Ensure consistency and establish bidirectional traceability. Ensure consistency and establish bidirectional traceability between the verification measures and the software units defined in the detailed design. Establish bidirectional traceability between the verification results and the verification measures.,null
+BasePractice,SWE.4.BP5,null,ASPICE_PAM_4.1,null,Summarize and communicate the results. Summarize the results of software unit verification and communicate them to all affected parties.,null
+BasePractice,SWE.5.BP1,null,ASPICE_PAM_4.1,null,"Specify software integration verification measures. Specify verification measures, based on a defined sequence and preconditions for the integration of software elements, against the defined static and dynamic aspects of the software architecture, including techniques for the verification measures, pass/fail criteria for verification measures, entry and exit criteria for verification measures, necessary sequence of the verification measures, and the required verification infrastructure and environment setup.",null
+BasePractice,SWE.5.BP2,null,ASPICE_PAM_4.1,null,"Specify verification measures for verifying the software component behavior. Specify verification measures for the software component verification against the defined software components' behavior and their interfaces in the software architecture, including techniques for the verification measures, entry and exit criteria for verification measures, pass/fail criteria for verification measures, and the required verification infrastructure and environment setup.",null
+BasePractice,SWE.5.BP3,null,ASPICE_PAM_4.1,null,Select verification measures. Document the selection of integration verification measures for each integration step considering selection criteria including criteria for the regression verification. The documented selection of verification measures shall have sufficient coverage according to the release scope.,null
+BasePractice,SWE.5.BP4,null,ASPICE_PAM_4.1,null,"Integrate the software elements and perform the integration verification. Integrate the software elements until the software is fully integrated according to the specified interfaces and interactions between the software elements, and according to the defined sequence and the defined preconditions. Perform the selected integration verification measures. Record the verification measure data including pass/fail status and the corresponding verification measure data.",null
+BasePractice,SWE.5.BP5,null,ASPICE_PAM_4.1,null,Perform the software component verification. Perform the selected verification measures for verifying the software component behavior. Record the verification results including pass/fail status and the corresponding verification measure data.,null
+BasePractice,SWE.5.BP6,null,ASPICE_PAM_4.1,null,Ensure consistency and establish bidirectional traceability. Ensure consistency and establish bidirectional traceability between the verification measures and the static and dynamic aspects of the software architecture as well as the detailed design. Establish bidirectional traceability between the verification results and the verification measures.,null
+BasePractice,SWE.5.BP7,null,ASPICE_PAM_4.1,null,Summarize and communicate the results. Summarize the software component verification and the software integration verification results and communicate them to all affected parties.,null
+BasePractice,SWE.6.BP1,null,ASPICE_PAM_4.1,null,"Specify verification measures for the software verification. Specify the verification measures for the software verification suitable to provide evidence for compliance of the integrated software with the functional and non-functional software requirements, including techniques for the verification measures, pass/fail criteria for the verification measures, a definition of entry and exit criteria for the verification measures, necessary sequence of the verification measures, and the required verification infrastructure and environment setup.",null
+BasePractice,SWE.6.BP2,null,ASPICE_PAM_4.1,null,Select verification measures. Document the selection of verification measures considering the selection criteria including criteria for the regression verification. The documented selection of verification measures shall have sufficient coverage according to the release scope.,null
+BasePractice,SWE.6.BP3,null,ASPICE_PAM_4.1,null,Verify the integrated software. Perform the verification of the integrated software using the selected verification measures. Record the verification results including pass/fail status and the corresponding verification measure data.,null
+BasePractice,SWE.6.BP4,null,ASPICE_PAM_4.1,null,Ensure consistency and establish bidirectional traceability. Ensure consistency and establish bidirectional traceability between the verification measures and the software requirements. Establish bidirectional traceability between the verification results and the verification measures.,null
+BasePractice,SWE.6.BP5,null,ASPICE_PAM_4.1,null,Summarize and communicate the results. Summarize the software verification results and communicate them to all affected parties.,null
+BasePractice,VAL.1.BP1,null,ASPICE_PAM_4.1,null,"Specify validation measures for the product validation. Specify the validation measures for the end product based on the stakeholder requirements to provide evidence that it fulfills its intended use expectations in its operational target environment, and this may include techniques for the validation measures, pass/fail criteria for the validation measures, if applicable, a definition of entry criteria for the validation measures, if applicable, necessary sequence of the validation measures, and the required validation infrastructure and environment setup.",null
+BasePractice,VAL.1.BP2,null,ASPICE_PAM_4.1,null,Select validation measures. Document the selection of validation measures considering the selection criteria including criteria for regression validation. The documented selection of validation measures shall have sufficient coverage according to the release scope.,null
+BasePractice,VAL.1.BP3,null,ASPICE_PAM_4.1,null,Perform the validation and evaluate the results. Perform the validation of the integrated end product using the selected validation measures. Record the validation results including pass/fail status. Evaluate the validation results.,null
+BasePractice,VAL.1.BP4,null,ASPICE_PAM_4.1,null,"Ensure consistency and establish bidirectional traceability. Ensure consistency and establish bidirectional traceability, if applicable, from validation measures to the stakeholder requirements from which they are derived. Establish bidirectional traceability between the validation results and the validation measures.",null
+BasePractice,VAL.1.BP5,null,ASPICE_PAM_4.1,null,Summarize and communicate the results. Summarize the validation results and communicate them to all affected parties.,null
+BasePractice,MLE.1.BP1,null,ASPICE_PAM_4.1,null,"Specify the ML requirements. Use the software requirements and the software architecture to identify and specify the functional and non-functional ML requirements, as well as the ML data requirements specifying the data characteristics and their expected distributions.",null
+BasePractice,MLE.1.BP2,null,ASPICE_PAM_4.1,null,Structure the ML requirements. Structure and prioritize the ML requirements.,null
+BasePractice,MLE.1.BP3,null,ASPICE_PAM_4.1,null,"Analyze the ML requirements. Analyze the specified ML requirements including their interdependencies to ensure correctness, technical feasibility, and ability for machine learning model testing, and to support project management regarding project estimates.",null
+BasePractice,MLE.1.BP4,null,ASPICE_PAM_4.1,null,Analyze the impact on the ML operating environment. Analyze the impact that the ML requirements will have on the interfaces of the software components and the ML operating environment.,null
+BasePractice,MLE.1.BP5,null,ASPICE_PAM_4.1,null,Ensure consistency and establish bidirectional traceability. Ensure consistency and establish bidirectional traceability between the ML requirements and the software requirements and between the ML requirements and the software architecture.,null
+BasePractice,MLE.1.BP6,null,ASPICE_PAM_4.1,null,"Communicate the agreed ML requirements and the impact on the operating environment. Communicate the agreed ML requirements, and the results of the impact analysis on the ML operating environment to all affected parties.",null
+BasePractice,MLE.2.BP1,null,ASPICE_PAM_4.1,null,"Develop the ML architecture. Develop and document the ML architecture that specifies the ML architectural elements including the details of the ML model, pre- and postprocessing, and hyperparameters which are required to create, train, test, and deploy the ML model.",null
+BasePractice,MLE.2.BP2,null,ASPICE_PAM_4.1,null,Determine the hyperparameter ranges and the initial values. Determine and document the hyperparameter ranges and the initial values as a basis for the training.,null
+BasePractice,MLE.2.BP3,null,ASPICE_PAM_4.1,null,"Analyze the ML architectural elements. Analyze the ML architecture regarding relevant technical design aspects, and to support the project management regarding project estimates. Document the rationales for the ML architectural design decisions.",null
+BasePractice,MLE.2.BP4,null,ASPICE_PAM_4.1,null,Define the interfaces of the ML architectural elements. Determine and document the internal and external interfaces of each ML architectural element including its interfaces to the related software components.,null
+BasePractice,MLE.2.BP5,null,ASPICE_PAM_4.1,null,Ensure consistency and establish bidirectional traceability between the ML architectural elements and the ML requirements.,null
+BasePractice,MLE.2.BP6,null,ASPICE_PAM_4.1,null,Communicate the agreed ML architecture. Inform all affected parties about the agreed ML architecture including the details of the ML model and the initial hyperparameter values.,null
+BasePractice,MLE.3.BP1,null,ASPICE_PAM_4.1,null,"Specify the ML training and validation approach. Specify an approach which supports the training and validation of the ML model to meet the defined ML requirements, including entry and exit criteria, approaches for hyperparameter tuning/optimization, approach for data set creation and modification, and the training and validation environment.",null
+BasePractice,MLE.3.BP2,null,ASPICE_PAM_4.1,null,Create the ML training and validation data set. Select data from the ML data collection provided by SUP.11 and assign them to the data set for training and validation of the ML model according to the specified ML training and validation approach.,null
+BasePractice,MLE.3.BP3,null,ASPICE_PAM_4.1,null,"Create and optimize the ML model. Create the ML model according to the ML architecture and train it, using the identified ML training and validation data set according to the ML training and validation approach to meet the defined ML requirements, and training and validation exit criteria.",null
+BasePractice,MLE.3.BP4,null,ASPICE_PAM_4.1,null,Ensure consistency and establish bidirectional traceability between the ML training and validation data set and the ML data requirements.,null
+BasePractice,MLE.3.BP5,null,ASPICE_PAM_4.1,null,Summarize and communicate the agreed trained ML model. Summarize the results of the optimization and inform all affected parties about the agreed trained ML model.,null
+BasePractice,MLE.4.BP1,null,ASPICE_PAM_4.1,null,"Specify an ML test approach suitable to provide evidence for compliance of the trained ML model and the deployed ML model with the ML requirements, including ML test scenarios, distribution and frequency of each ML test scenario, expected test result per test datum, pass/fail criteria, entry and exit criteria, approach for data set creation and modification, and required testing infrastructure and environment setup.",null
+BasePractice,MLE.4.BP2,null,ASPICE_PAM_4.1,null,Create the ML test data set needed for testing of the trained ML model and testing of the deployed ML model from the ML data collection provided by SUP.11 considering the ML test approach. The ML test data set shall not be used for training.,null
+BasePractice,MLE.4.BP3,null,ASPICE_PAM_4.1,null,Test the trained ML model according to the ML test approach using the created ML test data set. Record and evaluate the ML test results.,null
+BasePractice,MLE.4.BP4,null,ASPICE_PAM_4.1,null,Derive the deployed ML model from the trained ML model according to the ML architecture. The deployed ML model shall be used for testing and delivery to software integration.,null
+BasePractice,MLE.4.BP5,null,ASPICE_PAM_4.1,null,Test the deployed ML model according to the ML test approach using the created ML test data set. Record and evaluate the ML test results.,null
+BasePractice,MLE.4.BP6,null,ASPICE_PAM_4.1,null,"Ensure consistency and establish bidirectional traceability between the ML test approach and the ML requirements, and the ML test data set and the ML data requirements; and bidirectional traceability is established between the ML test approach and the ML test results.",null
+BasePractice,MLE.4.BP7,null,ASPICE_PAM_4.1,null,Summarize and communicate the results. Summarize the ML test results of the ML model. Inform all affected parties about the agreed results and the deployed ML model.,null
+BasePractice,HWE.1.BP1,null,ASPICE_PAM_4.1,null,"Specify the hardware requirements. Use the system requirements, and the system architecture including the interface definitions, to identify and document the functional and non-functional requirements of the hardware according to the defined characteristics for the requirements.",null
+BasePractice,HWE.1.BP2,null,ASPICE_PAM_4.1,null,Structure the hardware requirements. Structure and prioritize the hardware requirements.,null
+BasePractice,HWE.1.BP3,null,ASPICE_PAM_4.1,null,"Analyze the hardware requirements. Analyze the specified hardware requirements including their interdependencies to ensure correctness, technical feasibility, and to support project management regarding project estimates.",null
+BasePractice,HWE.1.BP4,null,ASPICE_PAM_4.1,null,Analyze the impact on the operating environment. Identify the interfaces between the specified hardware and other elements of the operating environment. Analyze the impact that the hardware requirements will have on these interfaces and the operating environment.,null
+BasePractice,HWE.1.BP5,null,ASPICE_PAM_4.1,null,Ensure consistency and establish bidirectional traceability. Ensure consistency and establish traceability between the hardware requirements and the system architecture. Ensure consistency and establish traceability between the hardware requirements and the system requirements.,null
+BasePractice,HWE.1.BP6,null,ASPICE_PAM_4.1,null,Communicate the agreed hardware requirements and the impact on the operating environment. Communicate the agreed hardware requirements and the results of the analysis of impact on the operating environment to all affected parties.,null
+BasePractice,HWE.2.BP1,null,ASPICE_PAM_4.1,null,Specify the hardware architecture. Develop the hardware architecture that identifies the hardware components. Document the rationale for the defined hardware architecture.,null
+BasePractice,HWE.2.BP2,null,ASPICE_PAM_4.1,null,"Specify the hardware detailed design. Based on the components identified in the hardware architecture, specify the detailed design description and the schematics for the intended hardware variants, including the interfaces between the hardware elements. Derive the hardware layout, the hardware bill of materials, and the production data.",null
+BasePractice,HWE.2.BP3,null,ASPICE_PAM_4.1,null,Specify the dynamic aspects of the hardware architecture and the hardware detailed design. Evaluate and document the dynamic behavior of the relevant hardware elements and the interaction between them.,null
+BasePractice,HWE.2.BP4,null,ASPICE_PAM_4.1,null,"Analyze the hardware architecture and the hardware detailed design. Analyze the hardware architecture and the hardware detailed design regarding relevant technical aspects, and support project management regarding project estimates. Identify the special characteristics.",null
+BasePractice,HWE.2.BP5,null,ASPICE_PAM_4.1,null,Ensure consistency and establish bidirectional traceability. Ensure consistency and establish traceability between the hardware elements and the hardware requirements. Ensure consistency and establish traceability between the hardware detailed design and the components of the hardware architecture.,null
+BasePractice,HWE.2.BP6,null,ASPICE_PAM_4.1,null,"Communicate the agreed hardware architecture and hardware detailed design. Communicate the agreed hardware architecture and the hardware detailed design, including the special characteristics and relevant production data, to all affected parties.",null
+BasePractice,HWE.3.BP1,null,ASPICE_PAM_4.1,null,"Specify verification measures for the verification against the hardware design. Specify the verification measures suitable to provide evidence for compliance of the hardware with the hardware design and its dynamic aspects. This includes techniques for the verification measures, pass/fail criteria for the verification measures, a definition of entry and exit criteria for the verification measures, necessary sequence of the verification measures, and the required verification infrastructure and environment setup.",null
+BasePractice,HWE.3.BP2,null,ASPICE_PAM_4.1,null,"Ensure the use of compliant samples. Ensure that the samples used for the verification against the hardware design are compliant with the corresponding production data, including the special characteristics. Ensure that deviations are documented and that they do not alter the verification results.",null
+BasePractice,HWE.3.BP3,null,ASPICE_PAM_4.1,null,Select verification measures. Document the selection of verification measures considering the selection criteria including regression criteria. The documented selection of verification measures shall have sufficient coverage according to the release scope.,null
+BasePractice,HWE.3.BP4,null,ASPICE_PAM_4.1,null,Verify against the hardware design. Verify the hardware design using the selected verification measures. Record the verification results including pass/fail status and the corresponding verification measure output data.,null
+BasePractice,HWE.3.BP5,null,ASPICE_PAM_4.1,null,Ensure consistency and establish bidirectional traceability between the hardware elements and the verification measures. Establish bidirectional traceability between the verification measures and the verification results.,null
+BasePractice,HWE.3.BP6,null,ASPICE_PAM_4.1,null,Summarize the verification results and communicate them to all affected parties.,null
+BasePractice,HWE.4.BP1,null,ASPICE_PAM_4.1,null,"Specify the verification measure to provide evidence for compliance with the hardware requirements. This includes techniques for the verification measures, pass/fail criteria for the verification measures, a definition of entry and exit criteria for the verification measures, necessary sequence of the verification measures, and the required verification infrastructure and environment setup.",null
+BasePractice,HWE.4.BP2,null,ASPICE_PAM_4.1,null,"Ensure that the samples used for the verification against the hardware requirements are compliant with the corresponding production data, including special characteristics, provided by the hardware design.",null
+BasePractice,HWE.4.BP3,null,ASPICE_PAM_4.1,null,Document the selection of verification measures considering selection criteria including regression criteria. The documented selection of verification measures shall have sufficient coverage according to the release scope.,null
+BasePractice,HWE.4.BP4,null,ASPICE_PAM_4.1,null,Verify the compliant hardware samples using the selected verification measures. Record the verification results including pass/fail status and the corresponding verification measure output data.,null
+BasePractice,HWE.4.BP5,null,ASPICE_PAM_4.1,null,Ensure consistency between the hardware requirements and the verification measures. Establish bidirectional traceability between the hardware requirements and the verification measures. Establish bidirectional traceability between the verification measures and the verification results.,null
+BasePractice,HWE.4.BP6,null,ASPICE_PAM_4.1,null,Summarize the verification results and communicate them to all affected parties.,null
+BasePractice,SUP.1.BP1,null,ASPICE_PAM_4.1,null,Ensure that quality assurance is performed independently and objectively without conflicts of interest.,null
+BasePractice,SUP.1.BP2,null,ASPICE_PAM_4.1,null,Define the quality criteria for work products as well as for process tasks and their performance.,null
+BasePractice,SUP.1.BP3,null,ASPICE_PAM_4.1,null,Identify the work products subject to quality assurance according to the quality criteria. Perform appropriate activities to evaluate the work products against the defined quality criteria and document the results.,null
+BasePractice,SUP.1.BP4,null,ASPICE_PAM_4.1,null,Identify the processes subject to quality assurance according to the quality criteria. Perform appropriate activities to evaluate the processes against their defined quality criteria and associated target values and document the results.,null
+BasePractice,SUP.1.BP5,null,ASPICE_PAM_4.1,null,"Regularly report performance, non-conformances, and trends of quality assurance activities to all affected parties.",null
+BasePractice,SUP.1.BP6,null,ASPICE_PAM_4.1,null,"Analyze, track, correct, resolve, and further prevent non-conformances found in quality assurance activities.",null
+BasePractice,SUP.1.BP7,null,ASPICE_PAM_4.1,null,Escalate relevant non-conformances to appropriate levels of management and other relevant stakeholders to facilitate their resolution.,null
+BasePractice,SUP.8.BP1,null,ASPICE_PAM_4.1,null,Define selection criteria for identifying relevant work products to be subject to configuration management. Identify and document the configuration items according to the defined selection criteria.,null
+BasePractice,SUP.8.BP2,null,ASPICE_PAM_4.1,null,Define the necessary properties needed for the modification and control of configuration items.,null
+BasePractice,SUP.8.BP3,null,ASPICE_PAM_4.1,null,"Establish configuration management mechanisms for the control of identified configuration items including the configuration item properties, including mechanisms for controlling parallel modifications of configuration items.",null
+BasePractice,SUP.8.BP4,null,ASPICE_PAM_4.1,null,Control the modifications using the configuration management mechanisms.,null
+BasePractice,SUP.8.BP5,null,ASPICE_PAM_4.1,null,"Define and establish baselines for internal purposes, and for external product delivery, for all relevant configuration items.",null
+BasePractice,SUP.8.BP6,null,ASPICE_PAM_4.1,null,"Record, summarize, and communicate the status of the configuration items and established baselines to all affected parties in order to support the monitoring of progress and status.",null
+BasePractice,SUP.8.BP7,null,ASPICE_PAM_4.1,null,Ensure that the information about configuration items is correct and complete including the configuration item properties. Ensure the completeness and consistency of the baselines.,null
+BasePractice,SUP.8.BP8,null,ASPICE_PAM_4.1,null,Verify the availability of appropriate backup and recovery mechanisms for the configuration management including the controlled configuration items. Initiate measures in case of insufficient backup and recovery mechanisms.,null
+BasePractice,SUP.9.BP1,null,ASPICE_PAM_4.1,null,"Each problem is uniquely identified, described and recorded. A status is assigned to each problem to facilitate tracking. Supporting information is provided to reproduce and diagnose the problems.",null
+BasePractice,SUP.9.BP2,null,ASPICE_PAM_4.1,null,"Analyze the problems, determine their causes, including common causes if existing, and impacts. Involve the relevant parties. Categorize the problems.",null
+BasePractice,SUP.9.BP3,null,ASPICE_PAM_4.1,null,Obtain authorization for immediate action if a problem requires an urgent resolution according to the categorization.,null
+BasePractice,SUP.9.BP4,null,ASPICE_PAM_4.1,null,"If, according to the categorization, problems have a high impact on other systems or other affected parties, alert notifications need to be raised accordingly.",null
+BasePractice,SUP.9.BP5,null,ASPICE_PAM_4.1,null,"Initiate appropriate actions according to the categorization to resolve the problems long-term and prevent recurrence, including reviews of those actions, or initiate change requests. This includes synchronization and consistency with short-term urgent resolution actions, if applicable.",null
+BasePractice,SUP.9.BP6,null,ASPICE_PAM_4.1,null,Track the statuses of the problems to closure including all related change requests. The closure of the problems is accepted by the relevant stakeholders.,null
+BasePractice,SUP.9.BP7,null,ASPICE_PAM_4.1,null,"Collect and analyze problem resolution management data, identify trends, and initiate related actions. Regularly report the results of data analysis, the identified trends and the status of problem resolution activities to the affected parties.",null
+BasePractice,SUP.10.BP1,null,ASPICE_PAM_4.1,null,"The scope for application of change requests is identified. Each change request is uniquely identified, described, and recorded, including the initiator and reason of the change request. A status is assigned to each change request to facilitate tracking.",null
+BasePractice,SUP.10.BP2,null,ASPICE_PAM_4.1,null,The change requests are analyzed by relevant parties according to the analysis criteria. The work products affected by the change requests and dependencies on other change requests are determined. The impact of the change requests is assessed.,null
+BasePractice,SUP.10.BP3,null,ASPICE_PAM_4.1,null,The change requests are prioritized and approved for implementation based on the analysis results and the availability of resources.,null
+BasePractice,SUP.10.BP4,null,ASPICE_PAM_4.1,null,"Establish bidirectional traceability between the change requests and the work products affected by the change requests. In case that the change requests are initiated by problems, establish bidirectional traceability between the change requests and the corresponding problem reports.",null
+BasePractice,SUP.10.BP5,null,ASPICE_PAM_4.1,null,The implementation of the change requests is confirmed before closure by relevant stakeholders.,null
+BasePractice,SUP.10.BP6,null,ASPICE_PAM_4.1,null,The change requests are tracked to closure. The status of the change requests is communicated to all affected parties.,null
+BasePractice,SUP.11.BP1,null,ASPICE_PAM_4.1,null,"Establish an ML data management system which supports ML data management activities, relevant sources of ML data, ML data lifecycle including a status model, and interfaces to affected parties.",null
+BasePractice,SUP.11.BP2,null,ASPICE_PAM_4.1,null,Develop an approach to ensure that the quality of ML data are analyzed based on the defined ML data quality criteria and that activities are performed to support the avoidance of biases of data.,null
+BasePractice,SUP.11.BP3,null,ASPICE_PAM_4.1,null,Collect the ML data. Relevant sources for the raw data are identified and continuously monitored for changes. The raw data are collected according to the ML data requirements.,null
+BasePractice,SUP.11.BP4,null,ASPICE_PAM_4.1,null,"Process the ML data. The raw data are processed (annotated, analyzed, and structured) according to the ML data requirements.",null
+BasePractice,SUP.11.BP5,null,ASPICE_PAM_4.1,null,Assure the quality of the ML data. Perform the activities according to the ML data quality approach to ensure that the ML data meet the defined ML data quality criteria.,null
+BasePractice,SUP.11.BP6,null,ASPICE_PAM_4.1,null,Communicate the agreed processed ML data. Inform all affected parties about the agreed processed ML data and provide them to the affected parties.,null
+BasePractice,MAN.3.BP1,null,ASPICE_PAM_4.1,null,"Define the scope of work. Identify the project's goals, motivation and boundaries.",null
+BasePractice,MAN.3.BP2,null,ASPICE_PAM_4.1,null,"Define the project lifecycle. Define the lifecycle for the project, which is appropriate to the scope, context, and complexity of the project. Define a release scope for relevant milestones.",null
+BasePractice,MAN.3.BP3,null,ASPICE_PAM_4.1,null,"Evaluate the feasibility of the project. Evaluate the feasibility of achieving the goals of the project with respect to time, project estimates, and available resources.",null
+BasePractice,MAN.3.BP4,null,ASPICE_PAM_4.1,null,Define and monitor the work packages. Define and monitor adequately sized work packages and their dependencies according to defined project lifecycle and estimations.,null
+BasePractice,MAN.3.BP5,null,ASPICE_PAM_4.1,null,"Define and monitor the project estimates and resources. Define and monitor the project estimates of effort and resources based on the project's goals, risks, motivation and boundaries.",null
+BasePractice,MAN.3.BP6,null,ASPICE_PAM_4.1,null,"Define and monitor the required skills, knowledge, and experience. Identify and monitor the required skills, knowledge, and experience for the project in line with the estimates and work packages.",null
+BasePractice,MAN.3.BP7,null,ASPICE_PAM_4.1,null,Define and monitor the project interfaces and agreed commitments. Identify and agree the interfaces of the project with affected stakeholders and monitor the agreed commitments. Define an escalation mechanism for commitments that are not fulfilled.,null
+BasePractice,MAN.3.BP8,null,ASPICE_PAM_4.1,null,Define and monitor the project schedule. Allocate resources to the work packages and schedule each activity of the project. Monitor the performance of the activities against the schedule.,null
+BasePractice,MAN.3.BP9,null,ASPICE_PAM_4.1,null,"Ensure consistency. Regularly adjust the estimates, resources, skills, work packages and their dependencies, schedules, plans, interfaces, and commitments for the project to ensure consistency with the scope of work.",null
+BasePractice,MAN.3.BP10,null,ASPICE_PAM_4.1,null,Review and report the progress of the project. Regularly review and report the status of the project and the fulfillment of the work packages against estimated effort and duration to all affected parties.,null
+BasePractice,MAN.5.BP1,null,ASPICE_PAM_4.1,null,Identify sources of risks. Identify and regularly update the sources of risks with affected parties.,null
+BasePractice,MAN.5.BP2,null,ASPICE_PAM_4.1,null,Identify the potential undesirable events. Identify the potential undesirable events within the scope of the risk management for the project.,null
+BasePractice,MAN.5.BP3,null,ASPICE_PAM_4.1,null,"Determine the risks. Determine the risks by analyzing the probability, consequence and severity of the potential undesirable events to support priorities for the mitigation of the risks.",null
+BasePractice,MAN.5.BP4,null,ASPICE_PAM_4.1,null,"Define risk treatment options. For each risk define a treatment option to accept, mitigate, avoid, or share (transfer) the risk.",null
+BasePractice,MAN.5.BP5,null,ASPICE_PAM_4.1,null,Define and perform risk treatment activities. Define and perform risk activities for the risk treatment options.,null
+BasePractice,MAN.5.BP6,null,ASPICE_PAM_4.1,null,Monitor the risks. Regularly re-evaluate the risks to determine changes in the status of a risk and to evaluate the progress of the risk treatment activities.,null
+BasePractice,MAN.5.BP7,null,ASPICE_PAM_4.1,null,"Take corrective action. When risk treatment activities are not effective, take appropriate corrective action.",null
+BasePractice,MAN.6.BP1,null,ASPICE_PAM_4.1,null,Identify the information needs. Identify the measurement information needs that are necessary to evaluate the achievement of process objectives and work products.,null
+BasePractice,MAN.6.BP2,null,ASPICE_PAM_4.1,null,Specify metrics. Identify and develop an appropriate set of metrics based on the measurement information needs.,null
+BasePractice,MAN.6.BP3,null,ASPICE_PAM_4.1,null,"Collect and store the metrics. Collect and store both base and derived metrics, including any context information necessary to verify and understand the metrics.",null
+BasePractice,MAN.6.BP4,null,ASPICE_PAM_4.1,null,"Analyze the collected metrics. Analyze, interpret and review the measured values to support decision-making.",null
+BasePractice,MAN.6.BP5,null,ASPICE_PAM_4.1,null,Communicate the analysis results. Communicate the analysis results to all affected parties.,null
+BasePractice,MAN.6.BP6,null,ASPICE_PAM_4.1,null,Use metrics for decision-making. Make accessible and use information from the collected metrics and analysis results for any decision-making process for which it is relevant.,null
+BasePractice,PIM.3.BP1,null,ASPICE_PAM_4.1,null,"Establish a commitment. Establish a commitment to support the process improvement staff, to provide resources and further enablers to sustain improvement actions.",null
+BasePractice,PIM.3.BP2,null,ASPICE_PAM_4.1,null,Identify improvement measures. Identify issues from the analysis of process performance and derive improvement opportunities with justified reasons for change.,null
+BasePractice,PIM.3.BP3,null,ASPICE_PAM_4.1,null,Establish process improvement goals. Analyze the current status of the existing processes and establish improvement goals.,null
+BasePractice,PIM.3.BP4,null,ASPICE_PAM_4.1,null,Prioritize the improvements. Prioritize the improvement goals and improvement measures.,null
+BasePractice,PIM.3.BP5,null,ASPICE_PAM_4.1,null,Define process improvement measures. Process improvement measures are defined.,null
+BasePractice,PIM.3.BP6,null,ASPICE_PAM_4.1,null,Implement the process improvement measures. Implement and apply the improvements to the processes. Update the process documentation and train people as needed.,null
+BasePractice,PIM.3.BP7,null,ASPICE_PAM_4.1,null,"Confirm the process improvements. The effects of process implementation are monitored and measured, and the achievement of defined improvement goals is confirmed.",null
+BasePractice,PIM.3.BP8,null,ASPICE_PAM_4.1,null,Communicate the results of the improvements. Knowledge gained from the improvements and progress of the improvement implementation is communicated to all affected parties.,null
+BasePractice,REU.2.BP1,null,ASPICE_PAM_4.1,null,Select products for reuse. Select the products to be reused using defined criteria.,null
+BasePractice,REU.2.BP2,null,ASPICE_PAM_4.1,null,Analyze the reuse capability of the products. Analyze the designated target architecture and the products to be reused to determine their applicability in the target architecture according to relevant criteria.,null
+BasePractice,REU.2.BP3,null,ASPICE_PAM_4.1,null,Define the limitations for reuse. Define and communicate the limitations for the products to be reused.,null
+BasePractice,REU.2.BP4,null,ASPICE_PAM_4.1,null,Ensure the qualification of the products for reuse. Provide evidence that the products for reuse are qualified for the intended use of the deliverable.,null
+BasePractice,REU.2.BP5,null,ASPICE_PAM_4.1,null,Provide the products for reuse. Make available the products to be reused to affected parties.,null
+BasePractice,REU.2.BP6,null,ASPICE_PAM_4.1,null,Communicate information about the effectiveness of the reuse activities. Establish a communication and notification mechanism about experiences and technical outcomes to the provider of reused products.,null
+Note,ACQ.4.BP3.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,ACQ.4.BP4.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,SPL.2.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,SPL.2.BP1.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,SPL.2.BP2.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,SPL.2.BP3.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,SPL.2.BP4.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,SPL.2.BP6.NOTE.6,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.1.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.1.BP2.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.1.BP2.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.1.BP3.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.1.BP3.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.2.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.2.BP1.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.2.BP2.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.2.BP2.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.2.BP3.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.2.BP3.NOTE.6,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.2.BP5.NOTE.7,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.2.BP5.NOTE.8,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.3.BP2.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.3.BP3.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.3.BP3.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.3.BP3.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.3.BP3.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.3.BP3.NOTE.6,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.3.BP4.NOTE.7,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.3.BP4.NOTE.8,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.4.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.4.BP2.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.4.BP3.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.4.BP3.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.4.BP4.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.4.BP5.NOTE.6,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.5.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.5.BP2.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.5.BP3.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.5.BP4.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,SYS.5.BP5.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.1.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.1.BP1.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.1.BP1.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.1.BP1.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.1.BP2.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.1.BP2.NOTE.6,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.1.BP3.NOTE.7,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.1.BP3.NOTE.8,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.1.BP5.NOTE.9,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.1.BP5.NOTE.10,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.1.BP5.NOTE.11,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.1.BP5.NOTE.12,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.2.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.2.BP2.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.2.BP2.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.2.BP3.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.2.BP3.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.2.BP3.NOTE.6,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.2.BP3.NOTE.7,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.2.BP3.NOTE.8,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.2.BP4.NOTE.9,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.2.BP4.NOTE.10,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.3.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.3.BP1.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.3.BP1.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.3.BP1.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.3.BP1.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.3.BP2.NOTE.6,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.3.BP3.NOTE.7,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.3.BP4.NOTE.8,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.3.BP4.NOTE.9,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.3.BP4.NOTE.10,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.4.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.4.BP1.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.4.BP3.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.4.BP4.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.4.BP5.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.5.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.5.BP1.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.5.BP2.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.5.BP3.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.5.BP4.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.5.BP4.NOTE.6,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.5.BP4.NOTE.7,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.5.BP5.NOTE.8,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.5.BP6.NOTE.9,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.5.BP7.NOTE.10,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.6.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.6.BP2.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.6.BP3.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.6.BP4.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,SWE.6.BP5.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,VAL.1.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,VAL.1.BP1.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,VAL.1.BP1.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,VAL.1.BP2.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,VAL.1.BP3.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,VAL.1.BP3.NOTE.6,null,ASPICE_PAM_4.1,null,null,null
+Note,VAL.1.BP4.NOTE.7,null,ASPICE_PAM_4.1,null,null,null
+Note,VAL.1.BP4.NOTE.8,null,ASPICE_PAM_4.1,null,null,null
+Note,VAL.1.BP4.NOTE.9,null,ASPICE_PAM_4.1,null,null,null
+Note,VAL.1.BP5.NOTE.10,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.1.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.1.BP1.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.1.BP1.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.1.BP1.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.1.BP2.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.1.BP2.NOTE.6,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.1.BP3.NOTE.7,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.1.BP4.NOTE.8,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.1.BP5.NOTE.9,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.1.BP5.NOTE.10,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.2.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.2.BP1.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.2.BP3.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.2.BP5.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.2.BP5.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.3.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.3.BP1.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.3.BP2.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.3.BP2.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.3.BP4.NOTE.6,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.4.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.4.BP1.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.4.BP1.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.4.BP1.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.4.BP2.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.4.BP2.NOTE.6,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.4.BP3.NOTE.7,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.4.BP4.NOTE.8,null,ASPICE_PAM_4.1,null,null,null
+Note,MLE.4.BP6.NOTE.9,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.1.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.1.BP1.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.1.BP1.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.1.BP1.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.1.BP2.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.1.BP2.NOTE.6,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.1.BP3.NOTE.7,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.1.BP3.NOTE.8,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.1.BP5.NOTE.9,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.1.BP5.NOTE.10,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.1.BP5.NOTE.11,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.1.BP5.NOTE.12,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.2.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.2.BP1.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.2.BP2.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.2.BP2.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.2.BP3.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.2.BP4.NOTE.6,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.2.BP4.NOTE.7,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.2.BP5.NOTE.8,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.2.BP5.NOTE.9,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.3.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.3.BP1.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.3.BP2.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.3.BP3.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.3.BP4.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.3.BP5.NOTE.6,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.3.BP6.NOTE.7,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.4.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.4.BP2.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.4.BP3.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.4.BP4.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.4.BP5.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,HWE.4.BP6.NOTE.6,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.1.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.1.BP2.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.1.BP3.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.1.BP4.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.1.BP6.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.1.BP6.NOTE.6,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.1.BP7.NOTE.7,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.8.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.8.BP1.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.8.BP1.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.8.BP2.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.8.BP2.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.8.BP2.NOTE.6,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.8.BP3.NOTE.7,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.8.BP4.NOTE.8,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.8.BP6.NOTE.9,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.8.BP7.NOTE.10,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.8.BP8.NOTE.11,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.9.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.9.BP1.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.9.BP1.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.9.BP1.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.9.BP2.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.9.BP7.NOTE.6,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.10.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.10.BP1.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.10.BP1.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.10.BP2.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.10.BP3.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.10.BP3.NOTE.6,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.10.BP6.NOTE.7,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.11.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.11.BP2.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.11.BP2.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.11.BP2.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.11.BP2.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.11.BP3.NOTE.6,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.11.BP3.NOTE.7,null,ASPICE_PAM_4.1,null,null,null
+Note,SUP.11.BP5.NOTE.8,null,ASPICE_PAM_4.1,null,null,null
+Note,MAN.3.BP2.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,MAN.3.BP3.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,MAN.3.BP4.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,MAN.3.BP4.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,MAN.3.BP5.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,MAN.3.BP5.NOTE.6,null,ASPICE_PAM_4.1,null,null,null
+Note,MAN.3.BP6.NOTE.7,null,ASPICE_PAM_4.1,null,null,null
+Note,MAN.3.BP7.NOTE.8,null,ASPICE_PAM_4.1,null,null,null
+Note,MAN.3.BP9.NOTE.9,null,ASPICE_PAM_4.1,null,null,null
+Note,MAN.3.BP10.NOTE.10,null,ASPICE_PAM_4.1,null,null,null
+Note,MAN.5.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,MAN.5.BP1.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,MAN.5.BP1.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,MAN.5.BP3.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,MAN.5.BP6.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,MAN.5.BP7.NOTE.6,null,ASPICE_PAM_4.1,null,null,null
+Note,MAN.6.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,MAN.6.BP1.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,MAN.6.BP2.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,MAN.6.BP3.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,PIM.3.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,PIM.3.BP1.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,PIM.3.BP1.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,PIM.3.BP2.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,PIM.3.BP2.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,PIM.3.BP2.NOTE.6,null,ASPICE_PAM_4.1,null,null,null
+Note,PIM.3.BP3.NOTE.7,null,ASPICE_PAM_4.1,null,null,null
+Note,PIM.3.BP5.NOTE.8,null,ASPICE_PAM_4.1,null,null,null
+Note,PIM.3.BP6.NOTE.9,null,ASPICE_PAM_4.1,null,null,null
+Note,PIM.3.BP6.NOTE.10,null,ASPICE_PAM_4.1,null,null,null
+Note,REU.2.BP1.NOTE.1,null,ASPICE_PAM_4.1,null,null,null
+Note,REU.2.BP2.NOTE.2,null,ASPICE_PAM_4.1,null,null,null
+Note,REU.2.BP2.NOTE.3,null,ASPICE_PAM_4.1,null,null,null
+Note,REU.2.BP3.NOTE.4,null,ASPICE_PAM_4.1,null,null,null
+Note,REU.2.BP4.NOTE.5,null,ASPICE_PAM_4.1,null,null,null
+Note,REU.2.BP4.NOTE.6,null,ASPICE_PAM_4.1,null,null,null
+Note,REU.2.BP5.NOTE.7,null,ASPICE_PAM_4.1,null,null,null
+Note,REU.2.BP6.NOTE.8,null,ASPICE_PAM_4.1,null,null,null
+InformationItem,13-09,Meeting support evidence,ASPICE_PAM_4.1,null,null,"Agenda and minutes of a meeting. Identifies: Name, Purpose, Date and place held, Attendees, Outcomes, decisions. Includes: Reference to previous minutes, Open issues, Action points including responsibilities and due dates, Next meeting."
+InformationItem,13-14,Progress status,ASPICE_PAM_4.1,null,null,"Set of indicators to document the achievements created by performing process activities according to the committed work to the former phase. Identifies: Status of work activities (for example in respect to a plan), Evidence of the committed outcome, Fulfilment of criteria within the state model, Limitations of outcome or achievements in respect to the committed objectives (for example deviations of performed verification). Includes: Timing references (for example in relation to schedule, milestones), Efforts. Examples and references: Status of actual quality against planned quality."
+InformationItem,13-16,Change request,ASPICE_PAM_4.1,null,null,"Request to change scope or impacts on planned activities or outcomes. Identifies: Scope and purpose of the change activities, Originator of the change, Impacted operation environment, Process performance, Environment of usage for the process outcome, Infrastructure or resources, Documentation needs. Includes: Impacted outcomes and achievements, Process objectives, Approval for implementation of a change, Limitations to be considered, Criteria to verify the fulfillment of the implementation."
+InformationItem,14-02,Corrective action,CS_PAM_2.0,null,null,"• Identifies the initial problem
+• Identifies the ownership for completion of defined action
+• Defines a solution (series of actions to fix problem)
+• Identifies the open date and target closure date
+• Contains a status indicator
+• Indicates follow up audit actions"
+InformationItem,11-03,Release note,ASPICE_PAM_4.1,null,null,"Documentation of content provided in the release. Identifies: Set of functionalities provided in the release, Limitations in relation to the committed scope, Known non-conformities, Application parameters, Configurations and variants, Unique name and version of the release, Additional or removed functionalities, Changed or improved functionalities, Documentation of resolved non-conformities. Includes: Intended area and environment of usage, Impact to other components linked to the release, Upstream or downstream compatibility of delivered release, Copyright and license information, Result of verification and validation measures, Approval for delivery of the release by responsible roles, Dependencies to other linked products (for example hardware revision)."
+InformationItem,11-04,Product release package,ASPICE_PAM_4.1,null,null,"Set of Elements delivered in the product release. Identifies: Physical components, Elements necessary for intended use, Warnings and alerts, Application Parameters. Includes: Documentation to maintain or service the product, Information for the user (for example installation and setup instruction within a manual)."
+InformationItem,13-06,Delivery evidence,ASPICE_PAM_4.1,null,null,"Evidence of items shipped or electronically delivered to customer. Identifies: Receiver, Delivery address, Delivery date, Acknowledgment of receipt. Includes: Identification information."
+InformationItem,13-13,Product release approval,ASPICE_PAM_4.1,null,null,"Evidence of approval for a product release. Identifies: Release date, Name and role of approver, Intended customer, Restrictions and limitations for usage. Includes: Delivery / shipping address, Release information of what is to be shipped or delivered, If applicable, supplier approval evidence(s)."
+InformationItem,18-06,Product release criteria,ASPICE_PAM_4.1,null,null,"Conditions to be satisfied prior to authorization of a product for delivery. Identifies: Release type and status, Elements of the release, Completeness conditions, Documentation needs. Includes: Adequacy considerations, Coverage, Limits, for example the maximum of residing risk in a product. Examples and References: Acceptance conditions for an engineering service product to a specific milestone."
+InformationItem,14-50,Stakeholder groups,ASPICE_PAM_4.1,null,null,"A group of people, relevant to a specific purpose or domain.
+Identifies:
+• Persons and group of persons
+• Responsibilities of ownership
+• Representatives and roles
+Includes:
+• Information needs, for example reporting content and frequency.
+Examples and references:
+• Expert groups for specific domains, for example safety.
+• Executive board"
+InformationItem,17-57,Special characteristics,ASPICE_PAM_4.1,null,null,"Product or process characteristics that impact safety, legal compliance, fit, function, performance, or further processing, and therefore require special treatment. Identifies: Product characteristics, Production process parameters, Domain impact references, for example security, References to regulations (compliance), Conformity requirements. Includes: Processing and performance requirements. Examples and References: IATF 16949, VDA 6.x Guidelines, ISO 26262, ISO/SAE 21434, FMEA rating within FMEA can consider special characteristics."
+InformationItem,06-50,Integration sequence instruction,ASPICE_PAM_4.1,null,null,"Workflow definition to combine, assemble or connect different systems or components into an integrated configuration. Identifies: Physical elements, for example hardware, mechanical and wiring elements, Software, Application parameters, Sequences and order of integration, Preconditions. Includes: Safety instructions, Recovery or fallback procedures, Verification activities."
+InformationItem,11-06,Integrated system,ASPICE_PAM_4.1,null,null,"Set of elements composed from different units or integrated sub-systems. Identifies: The intended use, Boundaries (for example application parameters). Includes: All configured elements (for example references to requirements specification)."
+InformationItem,11-05,Software unit,ASPICE_PAM_4.1,null,null,"Software element not decomposed to a lower level. Identifies: Single functions, Set of functions. Includes: Intended use and defined functionality (for example within a specification or an agreement). Examples and References: Representation of a software element at the lowest level in a conceptual model."
+InformationItem,01-03,Software component,ASPICE_PAM_4.1,null,null,"See definition in section 1.2.
+Identifies:
+• The Software element in the software architecture above the software unit level, or an implementation of such a software element.
+Includes:
+• Design model element, or executable source code such as libraries, modules, services or scripts."
+InformationItem,01-50,Integrated software,ASPICE_PAM_4.1,null,null,"A functional executable software which has been integrated from multiple software components.
+Identifies:
+• All configured software elements
+Includes:
+• Application parameter
+Examples and references:
+• Simulator with stubbing
+• Object code"
+InformationItem,04-51,ML architecture,ASPICE_PAM_4.1,null,null,"High-level design and structure of a machine learning system.
+Identifies:
+• Overall structure of the ML-based software element"
+InformationItem,01-54,Hyperparameter,ASPICE_PAM_4.1,null,null,"Settings or configurations that are used to control the learning process of a machine learning model.
+Identifies:
+• Description
+• Initial value
+• Value of the results of the ML training
+Includes:
+• Number of epochs
+• Scaling of network (number of layers or neurons per layer)
+Examples and references:
+• Learning rate of training, Loss function"
+InformationItem,08-65,ML training and validation approach,ASPICE_PAM_4.1,null,null,"Approach describing method for evaluating a trained ML model using data to confirm its accuracy and for the intended task. Identifies: Entry and exit criteria, Approaches for hyperparameter tuning / optimization, Approach for data set creation and modification. Includes: Training environment setup and configuration, Resources, Provision of input data, Storage of output data, Methods to control robustness (for example random dropout)."
+InformationItem,03-51,Machine Learning data set,ASPICE_PAM_4.1,null,null,"Selection of data for machine learning training and validation, or test of a machine learning model.
+Identifies:
+• Patterns
+• Relationships
+• Features
+Includes:
+• Annotations and labels
+• ML Training and Validation Data Set
+• ML Test Data Set"
+InformationItem,01-53,Trained ML model,ASPICE_PAM_4.1,null,null,"Resulting output machine learning (ML) model of the ML training process
+Identifies:
+• Set of weights optimized during the training
+Includes:
+• Software representing the ML architecture
+• Set of hyperparameters"
+InformationItem,08-64,ML test approach,ASPICE_PAM_4.1,null,null,"Approach describing criteria and activities to test ML models. Identifies: ML test scenarios, Distribution of data characteristics (for example gender of persons or weather conditions), Related ML requirements, Pass/fail criteria, Entry and exit criteria, Environment setup and configuration. Includes: References, for example with test data set."
+InformationItem,13-50,ML test results,ASPICE_PAM_4.1,null,null,"Results of ML test activities.
+Identifies:
+• Test data and logs
+• Test data with correct results
+• Test data with incorrect results
+• Test data not executed, and a rationale
+Includes:
+• Information about the test execution (date, participants, model version etc.)
+• Abstraction or summary of ML test results"
+InformationItem,11-50,Deployed ML model,ASPICE_PAM_4.1,null,null,Deployed ML model. Identifies: The source code derived from the trained ML model that shall be executed in the target system. Examples and references: It may differ from the trained ML model which often requires powerful hardware and uses interpretative languages. The deployed ML model is usually written in programming languages like C/C++.
+InformationItem,04-54,Hardware schematics,ASPICE_PAM_4.1,null,null,"Detailed diagrams of components and connections of a hardware system. Identifies: Hardware parts, Connections of the hardware parts. Includes: Identification information of hardware parts and variants."
+InformationItem,14-54,Hardware bill of materials,ASPICE_PAM_4.1,null,null,"Description of subcomponents, material and assemblies included within a hardware product.
+Identifies:
+• Type of components
+• Number of hardware parts
+• Supplier name
+• Revision information
+Includes:
+• Structure and hierarchical information"
+InformationItem,04-55,Hardware layout,ASPICE_PAM_4.1,null,null,"Physical arrangement of components on a circuit board or within a device. Identifies: Placement of the hardware parts, Manufacturing data, for example circuit paths, testing points, material specific adaptations, Shapes, masks, labels, layout identification. Includes: Justifying rationale for the chosen design. Examples and references: Printed circuit boards (PCB) layouts include vias, different layers, Soldering mask."
+InformationItem,03-54,Hardware production data,ASPICE_PAM_4.1,null,null,"Data used and created during hardware production.
+Identifies:
+• Layout data, e.g., in GERBER format
+• Test coverage
+Includes:
+• Bill of material
+Examples and References:
+• In semiconductor development, layout data can be mask data, for example in GDS2 format."
+InformationItem,04-56,Hardware element interface,ASPICE_PAM_4.1,null,null,"Description of interactions between different physical components within a hardware system. Identifies: Electrical interconnections, Thermal interfaces, Electrical characteristics, Signal tolerance, Performance needs, for example bandwidth. Includes: Definition of output, input, type, heat dissipation, communication parameters, signal parameters. Examples and references: Standardized interfaces and protocols like SPI, I2C, CAN."
+InformationItem,16-50,Organizational structure,ASPICE_PAM_4.1,null,null,"Hierarchical overview and structure of a set of groups and persons interacting with each other for a specific activity. Identifies: Hierarchical and functional reporting lines, Ownership and responsibilities, Organizational units. Includes: Interfaces, Locations, Communication details."
+InformationItem,18-52,Escalation path,ASPICE_PAM_4.1,null,null,"A sequence of organizational levels or responsible roles to which an unresolved issue, deviation, or risk shall be communicated in order to decision-making. Identifies: Trigger conditions, Stakeholders and roles, Escalation methods, Decision authority. Includes: Level specific conditions for an escalation, Communication and documentation requirements. Examples and References: A task force group requested by a customer includes an escalation path."
+InformationItem,18-07,Quality criteria,ASPICE_PAM_4.1,null,null,"Specified requirements to determine whether a product, process, or service conforms to quality objectives. Identifies: Measurement needs, Timings, Required elements, Needs for completeness, Accuracy, Performance needs. Includes: Thresholds, Tolerance level, Attributes, Compliance and conformance references. Examples and References: Conformance requirements specifying a specific set of values to be within a defined range."
+InformationItem,13-18,Quality conformance,ASPICE_PAM_4.1,null,null,"Documents the fulfillment of quality related criteria.
+Identifies:
+• Process performance
+• Work product compliance
+• Verification criteria
+• Process outcomes
+• Achievements
+• Success factors
+• Performance objectives
+Includes:
+• References to quality activities
+• Data collected
+• Measurement and calculation"
+InformationItem,18-53,Configuration item selection criteria,ASPICE_PAM_4.1,null,null,"Rules or parameters to determine elements of a system to be included under configuration control. Identifies: Stakeholder needs, Regulatory needs, Configuration item identification requirements. Includes: Type of work products, Classification characteristic. Examples and References: Maintainability requirement of software evaluation work products, Traceability requirements of supplier goods."
+InformationItem,01-52,Configuration item list,ASPICE_PAM_4.1,null,null,"List of configurable items under configuration control.
+Identifies:
+• Name of configuration item
+• Work products
+• Unique reference to the configuration item
+Includes:
+• Configuration item attributes and properties"
+InformationItem,16-03,Configuration management system,ASPICE_PAM_4.1,null,null,"System to manage configurations throughout a project or product life cycle, providing integrity, consistency and control. Identifies: Configuration items to be controlled, for example documents, hardware or tools, Configuration information, for example to a status model, Repository, Baselines, Changes and change status. Includes: Reporting requirements, Workflow of recovery and other containment activities, for example security fire drills. Examples and References: NASA defines it as technical management discipline that provides visibility and control over performance, functional, and physical characteristics of a product, preventing incorrect or unsafe configurations from being released."
+InformationItem,14-01,Change history,ASPICE_PAM_4.1,null,null,"Structured, chronological record of modifications made to an object (document, file, software component, etc.) over its lifecycle.
+Identifies:
+• Version information about changed object
+• Date of change
+• Description of change
+• Originator"
+InformationItem,15-56,Configuration status,ASPICE_PAM_4.1,null,null,"Summary of configuration management records and status. Identifies: Version and change history information, Baseline identification, Status of configuration items (CI) integrity and consistency, Identified deviations, for example missing CI, performance metric deviations."
+InformationItem,06-52,Backup and recovery mechanism information,ASPICE_PAM_4.1,null,null,"Processes and tools used to create backups of data and restore it in case of loss or corruption. Identifies: Description and confirmation of backup and recovery mechanisms, References to corresponding procedures or regulations."
+InformationItem,13-07,Problem,ASPICE_PAM_4.1,null,null,"Description of an issue. Identifies: Submitter, Version it was identified, Classification (for example criticality, urgency or relevance), Project phase in which problem is recorded, Owner, Status, Technical root cause, Potential effects on other systems, Expected closure date. Includes: Identification, References to other affected domains, subprojects, or programs, Relationships to dependencies like changes, preventive measures or other problems."
+InformationItem,15-55,Problem analysis evidence,ASPICE_PAM_4.1,null,null,"Elements and documents proving a problem analysis is performed. Identifies: Analyst and owner, Affected and involved parties, Context and root cause of the problem, Analysis results and summary, Potential impact, for example as severity or cost calculation. Includes: Date of the analysis, Potential solution(s)."
+InformationItem,15-12,Problem status,ASPICE_PAM_4.1,null,null,"Progress of problem resolution.
+Identifies:
+• Containment and prevention activities
+• Dependencies status
+• References to status model
+Includes:
+• Problem categories and classification"
+InformationItem,18-57,Change analysis criteria,ASPICE_PAM_4.1,null,null,"Definition of criteria to be included in the analysis of a change. Identifies: Resource requirements, Timing needs, for example to a project schedule, Risks and opportunities."
+InformationItem,16-52,ML data management system,ASPICE_PAM_4.1,null,null,"Data management system supporting machine learning engineering (MLE). Identifies: Data management activities, Data collection workflow, Labeling, Annotations and description, Ingestion, Exploration and profiling workflows, Procedure of structuring and cleansing, Related phases of engineering, for example ML training. Includes: References to configuration management, Information of data sources. Examples and References: Supports the relevant sources of ML data."
+InformationItem,19-50,ML data quality approach,ASPICE_PAM_4.1,null,null,"Approach describing criteria and activities to satisfy ML data quality goals.
+Identifies:
+• Quality criteria for example relevant data sources.
+• Analysis activities of the data
+Includes:
+• Reliability and consistency of labeling
+• Completeness against ML data requirements
+Examples and References:
+• Quality criteria to avoid data bias"
+InformationItem,03-53,ML data,ASPICE_PAM_4.1,null,null,"Data used for machine learning, attributed by metadata.
+Identifies:
+• Unique ID
+• Attributes
+• Data characteristics, for example audio recordings, sensor data, pictures and videos
+• Data created by an algorithm
+Includes:
+• Data created by processing of other data, for example added noise, changed colors or merged pictures"
+InformationItem,08-53,Scope of work,ASPICE_PAM_4.1,null,null,"Definition of tasks, responsibilities and deliverables of a project or program. Identifies: Deliverables and their intended use, Functional descriptions, Deliveries and delivery dates, Milestones, Work products, Activities, Out of scope definitions, Acceptance requirements. Includes: Customer and market information, Applicable standards and legal requirements, Reuse options, Integration of third-party deliveries."
+InformationItem,08-54,Feasibility analysis,ASPICE_PAM_4.1,null,null,"An evaluation of the ability to achieve the project objectives within available time and resources. Identifies: Available resources, Efforts, for example variable and fixed duration activities. Includes: Dependencies to supporting and shared resources, Technical evaluation, Recovery options, Critical path analysis."
+InformationItem,15-06,Project status,ASPICE_PAM_4.1,null,null,"Evaluated result for the relative state of a project.
+Identifies:
+• Progress and consistency to plans and schedule
+• Completed tasks
+• Relation to the intent of the project
+• Resources usage, for example hardware, material, human resources
+Includes:
+• Deviations and justification
+• Risks and opportunities to the planned progress and agreements
+• Issues and actions"
+InformationItem,03-03,Benchmarking data,ASPICE_PAM_4.1,null,null,"Data resulting out of performance measurement to establish a comparison of performance values.
+Identifies:
+• Measurement of current performance
+• Historical and current values
+• Criteria and information to be benchmarked
+Includes:
+• References to metric
+• References to their purpose, for example: goals, process, product or involved market"
+InformationItem,03-04,Customer satisfaction data,ASPICE_PAM_4.1,null,null,"Active and passive feedback information of a customer.
+Identifies:
+• Related products and services
+• Mechanism to collect data, for example field performance, survey, interview, meeting minutes, product demo
+Includes:
+• Notes
+• Observations
+• Trend data
+• Opportunities
+• Level of customer satisfaction"
+InformationItem,03-06,Process performance information,ASPICE_PAM_4.1,null,null,"Measurements about quantitative or qualitative measurable indicators, that match information for performance evaluation.
+Identifies:
+• Measurement metrics for the calculation of the quantitatively or qualitatively measurable indicators
+• Efforts
+• Time
+• Data
+Includes:
+• Performance level definition, for example usage of defined capacity, agreements.
+• Targets definitions, for example throughput
+• Utilization data of resources, for example up time, service outage time
+• Time schedules
+• Task completion criteria, for example: job run time
+• Quality of process and work products, for example non conformances ratio
+References and Examples:
+• Process performance respective deliveries, service level, operational performance"
+InformationItem,07-51,Measurement result,ASPICE_PAM_4.1,null,null,"Outcome of gathering qualitative or quantitative data. Identifies: Data sources, Data ownership, Evaluation and measurement workflow, Conformity requirements, for example on data protection, Approval and acceptance criteria. Includes: Benchmarking needs, Copyright, Metric references, for example to process, project or quality metric. Examples and References: Quality metrics could be identified in survey of the end customer, for example for usability, reliability and efficiency. Field failure measurement for performance of 5D cycle time. Project metrics for project management, for example resource utilization against plan."
+InformationItem,06-04,Training material,ASPICE_PAM_4.1,null,null,"Resources created or used to support learning. Identifies: Knowledge for operation, maintenance or development of systems, Area of application. Includes: Course listings and availability, Procedures, Guidance, Training identification information."
+InformationItem,07-04,Process metric,ASPICE_PAM_4.1,null,null,"Measurements about the process' performance: ability to produce sufficient work products, adherence to the process, time it takes to perform process, defects related to the process. Measures the impact of process change. Measures the efficiency of the process."
+InformationItem,15-13,Assessment/audit result,ASPICE_PAM_4.1,null,null,"Documentation of results of an audit or assessment activity.
+Identifies:
+• Gaps, potentials, weaknesses or non-conformances that require corrective actions
+• Scope and purpose
+• Context to the evaluations
+• Results, for example rating by percentage or traffic lights
+• Dates the activity was performed
+• Requirements used
+Includes:
+• Methods used
+• References to evidence
+• Assumptions and limitations
+• Organizational unit
+• Sponsor information
+• Assessment team
+• Attendees"
+InformationItem,15-16,Improvement opportunity,ASPICE_PAM_4.1,null,null,"Suggestion or idea of an improvement related to a weakness or a new capability.
+Identifies:
+• Related problem and cause
+• Value expected to benefit of, for example business opportunities or efficiency increases
+• Penalties of losses for not making the improvement
+Includes:
+• Owner
+• Decider and approve
+• Evaluation of the improvement"
+InformationItem,16-06,Process repository,ASPICE_PAM_4.1,null,null,"Controlled storage location for configuration related artefacts of a process. Identifies: Artefacts, for example process descriptions, Assets of the process, Access control, Changes to artefacts, Version information, Meta data, for example name, attributes, reference links. Includes: Storage and retrieval characteristics, for example in archiving processes, Status information."
+InformationItem,12-03,Reuse candidate,ASPICE_PAM_4.1,null,null,"Description of a product that might be reused. Identifies: Name of the product, Person responsible for the product, Reuse goals and objectives, List of reuse assets, Issues/risks of reusing the product, Person responsible for the qualification of the product to be reused, Type of the product's provision (for example storage location or delivery details). Includes: Specific requirements."
+InformationItem,04-02,Domain architecture,ASPICE_PAM_4.1,null,null,"High-level design and structure specific to a domain.
+Identifies:
+• Domain model(s) tailored from
+• Asset specifications
+• Definition of boundaries and relationships with other domains, for example within a Domain Interface Specification
+• Domain vocabulary
+• Domain representation standard
+Includes:
+• Justifying rationale for the chosen architecture
+• Functions and features
+• Capability and concepts of the domain"
+InformationItem,15-07,Reuse analysis evidence,ASPICE_PAM_4.1,null,null,"Evaluation of suitability for an existing component, requirement, design element, or process to be used in a new project.
+Identifies:
+• Constraints for reuse, for example known defects and vulnerabilities
+• Related change of infrastructure and environment
+• Functional fit
+• Compatibility
+• Dependencies
+• Maturity
+Includes:
+• Regulatory and standard differences
+• Characteristics of domain specific architecture
+Examples and References:
+• Reuse of an off-the-shelf component within a different product line."
+InformationItem,13-53,Qualification evidence,ASPICE_PAM_4.1,null,null,"Evidence that the products for reuse are qualified for the intended use of the deliverable.
+Identifies:
+• Qualification checklist
+• Passed items
+• Failed items
+• Pending items
+• Problems identified during qualification
+• Recommendation of actions
+• Conclusions of qualification
+Includes:
+• Risk analysis
+• Approval
+• Applicable standards"
+GenericPractice,GP 1.1.1,null,ASPICE_PAM_4.1,null,Achieve the intent of the base practices. Produce work products that evidence the process outcomes.,null
+GenericPractice,GP 2.1.1,null,ASPICE_PAM_4.1,null,Identify the objectives and define a strategy for the performance of the process. The scope of the process activities including the management of process performance and the management of work products are determined. Corresponding results to be achieved are determined. The process performance objectives and associated criteria are identified. Assumptions and constraints are considered when identifying the performance objectives. The approach and methodology for the process performance is determined.,null
+GenericPractice,GP 2.1.2,null,ASPICE_PAM_4.1,null,"Plan the performance of the process. The planning for the performance of the process is established according to the defined objectives, criteria, and strategy. The process activities and work packages are defined. The estimates for the work packages are identified using appropriate methods.",null
+GenericPractice,GP 2.1.3,null,ASPICE_PAM_4.1,null,"Determine the resource needs. The required amount of human resources, and experience, knowledge and skill needs for the process performance are determined based on the planning. The needs for physical and material resources are determined based on the planning. The required responsibilities and authorities to perform the process, and to manage the corresponding work products are determined.",null
+GenericPractice,GP 2.1.4,null,ASPICE_PAM_4.1,null,"Identify and make available the resources. The individuals performing and managing the process are identified and allocated according to the determined needs. The individuals performing and managing the process are being qualified to execute their responsibilities. The other resources, necessary for performing the process are identified, made available, allocated and used according to the determined needs.",null
+GenericPractice,GP 2.1.5,null,ASPICE_PAM_4.1,null,Monitor and adjust the performance of the process. The process performance is monitored to identify deviations from the planning. Appropriate actions in case of deviations from the planning are taken. The planning is adjusted as necessary.,null
+GenericPractice,GP 2.1.6,null,ASPICE_PAM_4.1,null,Manage the interfaces between involved parties. The individuals and groups including required external parties involved in the process performance are determined. The responsibilities are assigned to the relevant individuals or parties. The communication mechanisms between the involved parties are determined. An effective communication between the involved parties is established and maintained.,null
+GenericPractice,GP 2.2.1,null,ASPICE_PAM_4.1,null,Define the requirements for the work products. The requirements for the content and structure of the work products to be produced are defined. Quality criteria for the work products are identified. Appropriate review and approval criteria for the work products are defined.,null
+GenericPractice,GP 2.2.2,null,ASPICE_PAM_4.1,null,"Define the requirements for storage and control of the work products. The requirements for the storage and control of the work products are defined, including their identification and distribution.",null
+GenericPractice,GP 2.2.3,null,ASPICE_PAM_4.1,null,"Identify, store and control the work products. The work products to be controlled are identified. The work products are stored and controlled in accordance with the requirements. A change control is established for work products. Versioning and baselining of the work products is performed in accordance with the requirements for storage and control of the work products. The work products including the revision status are made available through appropriate mechanisms.",null
+GenericPractice,GP 2.2.4,null,ASPICE_PAM_4.1,null,Review and adjust work products. The work products are reviewed against the defined requirements and criteria. Resolution of issues arising from work products reviews is ensured.,null
+GenericPractice,GP 3.1.1,null,ASPICE_PAM_4.1,null,"Establish and maintain the standard process. A suitable standard process is developed including the required activities and their interactions comprising: the inputs and outputs of the standard process are defined including the interactions and sequence with other processes; the process performance roles are identified and assigned to the standard process activities including their type of involvement, responsibilities, and authorities. Sufficiently detailed guidance, procedures, and templates are provided to support the execution of the process as needed. Appropriate tailoring guidelines including predefined unambiguous criteria as well as predefined and unambiguous proceedings are defined based on identified deployment needs and the context of the standard process. The standard process is maintained according to corresponding feedback from the monitoring of the deployed processes.",null
+GenericPractice,GP 3.1.2,null,ASPICE_PAM_4.1,null,"Determine the required competencies. The required competencies, skills, and experience for performing the standard process are determined for the identified roles. Appropriate qualification methods to acquire the necessary competencies and skills are determined, maintained, and made available for the identified roles.",null
+GenericPractice,GP 3.1.3,null,ASPICE_PAM_4.1,null,Determine the required resources. The required physical and material resources and process infrastructure needs for performing the standard process are determined.,null
+GenericPractice,GP 3.1.4,null,ASPICE_PAM_4.1,null,Determine suitable methods to monitor the standard process. Methods and required activities for monitoring the effectiveness and adequacy of the standard process are determined. Appropriate criteria and information needed to monitor the standard process are defined.,null
+GenericPractice,GP 3.2.1,null,ASPICE_PAM_4.1,null,Deploy a defined process that satisfies the context specific requirements of the use of the standard process. The defined process is appropriately selected and/or tailored from the standard process. The conformance of the defined process with standard process requirements and tailoring criteria is verified. The defined process is used as managed process to achieve the process outcomes.,null
+GenericPractice,GP 3.2.2,null,ASPICE_PAM_4.1,null,"Ensure the required competencies for the defined roles. The human resources are allocated to the defined roles according to the required competencies and skills. The assignment of persons to roles and corresponding responsibilities and authorities for performing the defined process is communicated. The gaps in competencies and skills are identified, and the corresponding qualification measures are initiated and monitored. Availability and usage of the project staff are measured and monitored.",null
+GenericPractice,GP 3.2.3,null,ASPICE_PAM_4.1,null,"Ensure the required resources to support the performance of the defined process. The required information to perform the defined process is made available, allocated and used. The required physical and material resources, process infrastructure and work environment are made available, allocated and used. Availability and usage of the resources are measured and monitored.",null
+GenericPractice,GP 3.2.4,null,ASPICE_PAM_4.1,null,Monitor the performance of the defined process. Information is collected and analyzed according to the determined process monitoring methods to understand the effectiveness and adequacy of the defined process. The results of the analysis are made available to all involved parties and used to identify where continual improvement of the standard and/or defined process can be made.,null
+GenericPractice,GP 4.1.1,null,ASPICE_PAM_4.1,null,Identify the business goals. The business goals are identified that are supported by the quantitatively measured process.,null
+GenericPractice,GP 4.1.2,null,ASPICE_PAM_4.1,null,"Establish the process information needs. The stakeholders of the identified business goals and the quantitatively measured process are identified, and their information needs are defined and agreed.",null
+GenericPractice,GP 4.1.3,null,ASPICE_PAM_4.1,null,"Identify the measurable relationships between process elements. Identify the relationships between process elements, or sets of process elements, which contribute to the process information needs.",null
+GenericPractice,GP 4.1.4,null,ASPICE_PAM_4.1,null,"Derive a process measurement approach and select the analysis techniques. Based on the measurable relationships of process elements, or set of process elements, the process measurement metrics are derived to satisfy the established process information needs. The frequency of data collection is defined. Select the analysis techniques, appropriate to the collected data. Algorithms and methods to create derived measurement results from base measures are defined, as appropriate. The verification mechanism for base and derived measures is defined.",null
+GenericPractice,GP 4.1.5,null,ASPICE_PAM_4.1,null,Establish quantitative control limits. Establish quantitative control limits for the derived metrics. An agreement with the process stakeholders is established.,null
+GenericPractice,GP 4.1.6,null,ASPICE_PAM_4.1,null,Collect product and process measurement results through performing the defined process. Data collection mechanisms are created for all identified metrics. The required data are collected across process instances with the defined frequency and recorded. The measurement results are analyzed and reported to the identified stakeholders.,null
+GenericPractice,GP 4.2.1,null,ASPICE_PAM_4.1,null,Identify the variations in process performance. The deviations in the performance of process instances from the established quantitative control limits are determined based on the collected quantitative measurement data.,null
+GenericPractice,GP 4.2.2,null,ASPICE_PAM_4.1,null,Identify the causes of variation. The determined deviations in the process performance are analyzed to identify potential causes of variation using the defined analysis techniques. Distributions are used to quantitatively understand the variation of process performance under the influence of potential causes of variation. The consequences of process variation are analyzed.,null
+GenericPractice,GP 4.2.3,null,ASPICE_PAM_4.1,null,Identify and implement corrective actions to address assignable causes. The results of the variation analyses are provided to those responsible for taking action. Corrective actions are determined and implemented to address each assignable cause of variation. The corrective action results are monitored and evaluated to determine their effectiveness.,null
+GenericPractice,GP 5.1.1,null,ASPICE_PAM_4.1,null,Define the process innovation objectives for the process that support the relevant business goals. New business visions and goals are analyzed to give guidance for new process objectives and potential areas of process innovation. The quantitative and qualitative process innovation objectives are defined and documented.,null
+GenericPractice,GP 5.1.2,null,ASPICE_PAM_4.1,null,Analyze the quantitative data of the process. The common causes of variation in process performance across process instances are identified and analyzed to get a quantitative understanding of their impact.,null
+GenericPractice,GP 5.1.3,null,ASPICE_PAM_4.1,null,"Identify the innovation opportunities. Identify the opportunities for innovation based on the quantitative understanding of the analyzed data. Industry best practices, new technologies and process concepts are identified and evaluated. Feedback on opportunities for innovation is actively sought. Emergent risks are considered in evaluating the improvement opportunities.",null
+GenericPractice,GP 5.2.1,null,ASPICE_PAM_4.1,null,Define and assess the impact of the proposed changes.,null
+GenericPractice,GP 5.2.2,null,ASPICE_PAM_4.1,null,Implement the agreed process changes.,null
+GenericPractice,GP 5.2.3,null,ASPICE_PAM_4.1,null,"Evaluate the effectiveness of the process changes. Performance and capability of the changed process are measured and compared with historical data. Performance and capability of the changed process are analyzed to determine whether the process performance has improved with respect to common causes of variations. Other feedback is recorded, such as opportunities for further innovation of the standard process. A mechanism is available for documenting and reporting the analysis results to stakeholders of the standard and defined process.",null
+ProcessAttributeAchievement,PA1.1.ACH.1,null,ASPICE_PAM_4.1,null,The process achieves its defined outcomes.,null
+ProcessAttributeAchievement,PA2.1.ACH.1,null,ASPICE_PAM_4.1,null,A strategy for the performance of the process is defined based on the identified objectives.,null
+ProcessAttributeAchievement,PA2.1.ACH.2,null,ASPICE_PAM_4.1,null,The performance of the process is planned.,null
+ProcessAttributeAchievement,PA2.1.ACH.3,null,ASPICE_PAM_4.1,null,The performance of the process is monitored and adjusted to meet the planning.,null
+ProcessAttributeAchievement,PA2.1.ACH.4,null,ASPICE_PAM_4.1,null,The needs for human resources including responsibilities and authorities for performing the process are determined.,null
+ProcessAttributeAchievement,PA2.1.ACH.5,null,ASPICE_PAM_4.1,null,The needs for physical and material resources are determined.,null
+ProcessAttributeAchievement,PA2.1.ACH.6,null,ASPICE_PAM_4.1,null,The persons performing the process are prepared for executing their responsibilities.,null
+ProcessAttributeAchievement,PA2.1.ACH.7,null,ASPICE_PAM_4.1,null,"The physical and material resources for performing the process are identified, made available, allocated and used.",null
+ProcessAttributeAchievement,PA2.1.ACH.8,null,ASPICE_PAM_4.1,null,The interfaces between the involved parties are managed to ensure both effective communication and the assignment of responsibilities.,null
+ProcessAttributeAchievement,PA2.2.ACH.1,null,ASPICE_PAM_4.1,null,The requirements for the work products of the process are defined.,null
+ProcessAttributeAchievement,PA2.2.ACH.2,null,ASPICE_PAM_4.1,null,The requirements for storage and control of the work products are defined.,null
+ProcessAttributeAchievement,PA2.2.ACH.3,null,ASPICE_PAM_4.1,null,"The work products are appropriately identified, stored, and controlled.",null
+ProcessAttributeAchievement,PA2.2.ACH.4,null,ASPICE_PAM_4.1,null,The work products are reviewed and adjusted as necessary to meet requirements.,null
+ProcessAttributeAchievement,PA3.1.ACH.1,null,ASPICE_PAM_4.1,null,"A standard process is developed, established, and maintained that describes the fundamental elements that must be incorporated into a defined process.",null
+ProcessAttributeAchievement,PA3.1.ACH.2,null,ASPICE_PAM_4.1,null,The required inputs and the expected outputs for the standard process are defined.,null
+ProcessAttributeAchievement,PA3.1.ACH.3,null,ASPICE_PAM_4.1,null,"The roles, responsibilities, authorities, and required competencies for performing the standard process are defined.",null
+ProcessAttributeAchievement,PA3.1.ACH.4,null,ASPICE_PAM_4.1,null,Tailoring guidelines for deriving the defined process from the standard process are defined.,null
+ProcessAttributeAchievement,PA3.1.ACH.5,null,ASPICE_PAM_4.1,null,The required physical and material resources and process infrastructure needs are determined as part of the standard process.,null
+ProcessAttributeAchievement,PA3.1.ACH.6,null,ASPICE_PAM_4.1,null,"Suitable methods and required activities for monitoring the effectiveness, suitability and adequacy of the process are determined.",null
+ProcessAttributeAchievement,PA3.2.ACH.1,null,ASPICE_PAM_4.1,null,A defined process is deployed based upon an appropriately selected and/or tailored standard process.,null
+ProcessAttributeAchievement,PA3.2.ACH.2,null,ASPICE_PAM_4.1,null,An assignment of persons necessary for performing the defined process to roles is performed and communicated.,null
+ProcessAttributeAchievement,PA3.2.ACH.3,null,ASPICE_PAM_4.1,null,"The required education, training and experience is ensured and monitored for the persons assigned to the roles.",null
+ProcessAttributeAchievement,PA3.2.ACH.4,null,ASPICE_PAM_4.1,null,"The required resources for performing the defined process are made available, allocated, and maintained.",null
+ProcessAttributeAchievement,PA3.2.ACH.5,null,ASPICE_PAM_4.1,null,Appropriate information is collected and analyzed as a basis for understanding the behavior of the process.,null
+ProcessAttributeAchievement,PA4.1.ACH.1,null,ASPICE_PAM_4.1,null,The process information needs in support of relevant defined quantitative business goals are established.,null
+ProcessAttributeAchievement,PA4.1.ACH.2,null,ASPICE_PAM_4.1,null,"Measurable relationships between process elements that contribute to the process performance, and data collection techniques and data collection frequency, are identified.",null
+ProcessAttributeAchievement,PA4.1.ACH.3,null,ASPICE_PAM_4.1,null,Process measurement objectives are derived from the process information needs.,null
+ProcessAttributeAchievement,PA4.1.ACH.4,null,ASPICE_PAM_4.1,null,Techniques for analyzing the collected data are selected.,null
+ProcessAttributeAchievement,PA4.1.ACH.5,null,ASPICE_PAM_4.1,null,Quantitative control limits for the process performance in support of relevant business goals are established.,null
+ProcessAttributeAchievement,PA4.1.ACH.6,null,ASPICE_PAM_4.1,null,"The results of measurement are collected, validated and reported in order to monitor the extent to which the quantitative targets/objectives for the process performance are met.",null
+ProcessAttributeAchievement,PA4.2.ACH.1,null,ASPICE_PAM_4.1,null,The variations in process performance are identified.,null
+ProcessAttributeAchievement,PA4.2.ACH.2,null,ASPICE_PAM_4.1,null,The assignable causes of process variations are determined through analysis of the collected quantitative data.,null
+ProcessAttributeAchievement,PA4.2.ACH.3,null,ASPICE_PAM_4.1,null,The distributions that characterize the performance of the process are established.,null
+ProcessAttributeAchievement,PA4.2.ACH.4,null,ASPICE_PAM_4.1,null,Corrective actions are taken to address assignable causes of variation.,null
+ProcessAttributeAchievement,PA5.1.ACH.1,null,ASPICE_PAM_4.1,null,The process innovation objectives are defined that support the relevant business goals.,null
+ProcessAttributeAchievement,PA5.1.ACH.2,null,ASPICE_PAM_4.1,null,The quantitative data are analyzed to identify opportunities for innovation.,null
+ProcessAttributeAchievement,PA5.1.ACH.3,null,ASPICE_PAM_4.1,null,Innovation opportunities derived from new technologies and process concepts are identified.,null
+ProcessAttributeAchievement,PA5.2.ACH.1,null,ASPICE_PAM_4.1,null,The impact of all proposed changes is assessed against the objectives of the defined process and standard process.,null
+ProcessAttributeAchievement,PA5.2.ACH.2,null,ASPICE_PAM_4.1,null,The implementation of all agreed changes is managed to ensure that any disruption to the process performance is understood and acted upon.,null
+ProcessAttributeAchievement,PA5.2.ACH.3,null,ASPICE_PAM_4.1,null,The effectiveness of process changes on the basis of quantitative performance and innovation feedback is evaluated.,null
+InformationItem,06-51,Tailoring guideline,ASPICE_PAM_4.1,null,null,"Set of rules to adapt processes, methods, documentation, or requirements to a specific project, product, or organizational context. Identifies: Criteria for tailoring, Proceeding of tailoring, Approval conditions, Integrity and consistency needs of the defined process. Includes: Tailoring matrix, Tailoring triggers, Assets of the defined process."
+InformationItem,07-61,Quantitative process metric,ASPICE_PAM_4.1,null,null,"Quantitative evaluation of measurable relationships and characteristics of a process. Identifies: Measurable indicators, Relationship of the quantitatively measurable indicators, Trend evaluation. Includes: Process elements and descriptions, Repositories and tools, for example to store historical data. Examples and References: Information needs derived from business goals."
+InformationItem,07-62,Process analysis technique,ASPICE_PAM_4.1,null,null,"Workflow description to control process within specific limits. Identifies: Calculation specification, for example statistic algorithm, Mathematical references, Data structure. Includes: Frequency of data collection."
+InformationItem,07-63,Process control limits,ASPICE_PAM_4.1,null,null,"Boundaries used to monitor and manage a process. Identifies: Quantitative control limits, Relevant process metrics."
+InformationItem,07-64,Process measurement data,ASPICE_PAM_4.1,null,null,"Data collected across process instances. Identifies: Attributes of data, for example timestamps, Relation to process measurement metrics, Storage and retrieval, Controls over access."
+InformationItem,08-61,Resource allocation,ASPICE_PAM_4.1,null,null,"Distribution of resources to tasks and locations. Identifies: Resources identification information, Tasks, Locations, Timing needs, Roles, Restrictions of availability. Includes: Workload evaluation, Physical and material resources. Examples and references: Resource allocation for a test team, for example persons, tool licenses, test hardware."
+InformationItem,08-62,Communication matrix,ASPICE_PAM_4.1,null,null,"Relationships and dependencies of an organization to manage communication. Identifies: Affected internal and external stakeholders, Roles, Contact information, Definition of affected interfaces between stakeholders, Communication subject. Includes: Communication means and frequency, Documentation needs of the communication, for example type of record."
+InformationItem,08-63,Process monitoring method,ASPICE_PAM_4.1,null,null,"Documentation of workflow to measure and to control boundaries of a process. Identifies: Methods of analysis, Measurements, Criteria for monitoring, Boundaries and limits of measures. Includes: Measurement frequency and technology."
+InformationItem,08-66,Measures against deviations in quantitative process analysis,ASPICE_PAM_4.1,null,null,"Definition of corrective measures for quantitative process control. Identifies: Corrective measures, Implementation boundaries, Causes of variation, Timing requirements, Evaluation requirements (for example data filtering)."
+InformationItem,10-50,Role description,ASPICE_PAM_4.1,null,null,"Definition of a process role. Identifies: Name/identifier, Assigned activities (for example as RASIC), Responsibilities, Authorities, Required competencies, skills, and experience. Includes: Reference to qualification methods."
+InformationItem,10-51,Qualification method description,ASPICE_PAM_4.1,null,null,"Description of a qualification method for human resources. Identifies: Competence category (for example product, process or tools), Management level and title, Subject specific needs, Name, Required level of knowledge (for example to standards and norms), Type of method (for example as formal training, on the job, mentoring or coaching). Includes: Reference to courses and training material."
+InformationItem,10-52,Process resource and infrastructure description,ASPICE_PAM_4.1,null,null,"Description of a non-human resource. Identifies: Facilities, Tools and licenses, Networks, Services (for example by internal or external providers), Samples. Includes: Evidence for tool qualification if relevant (for example within safety critical usage)."
+InformationItem,13-55,Process resource and infrastructure documentation,ASPICE_PAM_4.1,null,null,"Documentation that the required resources for performing the defined process are made available, allocated, used and maintained.
+Identifies:
+• Information on availability, allocation and usage of resources
+• Facilities
+• Tools and corresponding licenses
+• Networks
+• Services
+• Needs for samples, for example prototype protection
+Includes:
+• Maintenance information, if applicable"
+InformationItem,14-53,Role assignment,ASPICE_PAM_4.1,null,null,"Assignment of person(s) to roles.
+Identifies:
+• Required competencies
+• Existing competencies
+• Experiences
+• Training related to role
+Includes:
+• Gap identification and guidance
+• Approver"
+InformationItem,15-54,Tailoring documentation,ASPICE_PAM_4.1,null,null,"Context specific use evaluation results and adaptations to a standard process.
+Identifies:
+• Applied criteria for tailoring
+• Evidence of adaptations made to the standard process, for example meeting organization changes.
+• Reference to standard process and version, for example adaptation of lifecycle
+Includes:
+• Traceability information
+• Methods, tools and techniques"
+InformationItem,15-57,Quantitative process analysis results,ASPICE_PAM_4.1,null,null,"Quantitative analysis results of a process. Identifies: Results to defined, measurable outputs, for example cycle time, defect density, process yield, Distribution results. Includes: Trend analysis, Statistical control evaluation, Quantitative control limits. Examples and references: Lean Six Sigma analysis with evaluation of process capability indices (Cpk)."
+InformationItem,15-58,Common cause of variation analysis results,ASPICE_PAM_4.1,null,null,"Results of variation analysis specific for common cause. Identifies: References of common causes, Deviations of the quantitative performance of process instances, Distributions of the quantitative performance of process instances. Includes: Quantitative control limits."
+InformationItem,17-55,Resource needs,ASPICE_PAM_4.1,null,null,"Identification of required resources for process performance. Identifies: Human resources, Competencies, Skills and authorities, Material, Infrastructure and equipment, Tooling, Time, Budgets. Includes: Relation to work breakdown structure and planning information."
+InformationItem,18-59,Review and approval criteria for work products,ASPICE_PAM_4.1,null,null,"Specification of review and approval criteria for work products. Identifies: Review conditions, Timing needs, for example a specific milestone, Review methods, for example inspection or peer review. Includes: Approval definition. Examples and References: Definition when and how to perform a walkthrough meeting."
+InformationItem,18-70,Business goals,ASPICE_PAM_4.1,null,null,"Explanation of business goals. Identifies: Requirements for the business needs, Associations to other goals, Reasons and rationales for the goals, Authorization level, Timeframe. Includes: Degree of the need, Effect on the business, for example in case of delay, Assumptions and constraints."
+InformationItem,18-80,Process improvement opportunity,ASPICE_PAM_4.1,null,null,"Cause of an improvement need.
+Identifies:
+• Improvement objectives, for example a specific business goal
+• Organizational scope
+• Process scope
+• Qualitative evaluation
+• Quantitative evaluation
+Includes:
+• Activities
+• Stakeholders
+• Priorities
+Examples and References:
+• Best practice analysis
+• State-of-the-art observations
+• Market studies"
+InformationItem,18-81,Improvement evaluation results,ASPICE_PAM_4.1,null,null,"Evaluation result of the effects of realized changes initiated for improvement.
+Identifies:
+• Expected benefits
+• Conditions, for example evaluation cycle time
+• Constraints and assumptions
+Includes:
+• Tactical level impact
+• Strategical level impact
+• Operational level impact
+Examples and References:
+• Cycle time of a changed problem resolution process for optical hardware inspection.
+• ISO/IEC TR33014 Guide for process improvement"
+ProcessOutcome,ACQ.2.OUT.1,null,CS_PAM_2.0,null,Evaluation criteria are established for suppliers.,null
+ProcessOutcome,ACQ.2.OUT.2,null,CS_PAM_2.0,null,Suppliers are evaluated against the defined criteria.,null
+ProcessOutcome,ACQ.2.OUT.3,null,CS_PAM_2.0,null,A request for quotation is issued to supplier candidates.,null
+ProcessOutcome,ACQ.2.OUT.4,null,CS_PAM_2.0,null,"Commitment/agreement, corrective actions, are agreed. The supplier is contracted in consideration of the evaluation result.",null
+ProcessOutcome,MAN.7.OUT.1,null,CS_PAM_2.0,null,The item is defined including its functions and boundaries.,null
+ProcessOutcome,MAN.7.OUT.2,null,CS_PAM_2.0,null,"Relevant assets, threats and damage scenarios are identified and regularly updated.",null
+ProcessOutcome,MAN.7.OUT.3,null,CS_PAM_2.0,null,Cybersecurity risks are analyzed based on impact rating and attack feasibility rating in order to support prioritization for the treatment of risks.,null
+ProcessOutcome,MAN.7.OUT.4,null,CS_PAM_2.0,null,The status of risk and the progress of the risk treatment activities is determined.,null
+ProcessOutcome,MAN.7.OUT.5,null,CS_PAM_2.0,null,"Appropriate treatment is taken to mitigate the impact of risk based on its priority, likelihood, and consequence or other defined risk threshold.",null
+ProcessOutcome,SEC.1.OUT.1,null,CS_PAM_2.0,null,Cybersecurity goals are specified.,null
+ProcessOutcome,SEC.1.OUT.2,null,CS_PAM_2.0,null,Cybersecurity requirements are derived from cybersecurity goals.,null
+ProcessOutcome,SEC.1.OUT.3,null,CS_PAM_2.0,null,Consistency and bidirectional traceability are maintained between cybersecurity requirements and goals and between the cybersecurity goals and the threat scenarios.,null
+ProcessOutcome,SEC.1.OUT.4,null,CS_PAM_2.0,null,The cybersecurity requirements are agreed and communicated to all affected parties.,null
+ProcessOutcome,SEC.2.OUT.1,null,CS_PAM_2.0,null,"The architecture of the system, software, and hardware is refined.",null
+ProcessOutcome,SEC.2.OUT.2,null,CS_PAM_2.0,null,"Consistency and bidirectional traceability are established between cybersecurity requirements and system architecture, software architecture and components of hardware architecture; consistency and bidirectional traceability are established between cybersecurity requirements and software detailed design and hardware detailed design.",null
+ProcessOutcome,SEC.2.OUT.3,null,CS_PAM_2.0,null,Appropriate cybersecurity controls are selected.,null
+ProcessOutcome,SEC.2.OUT.4,null,CS_PAM_2.0,null,Weaknesses are analyzed.,null
+ProcessOutcome,SEC.2.OUT.5,null,CS_PAM_2.0,null,Detailed design of software and hardware is refined.,null
+ProcessOutcome,SEC.2.OUT.6,null,CS_PAM_2.0,null,Consistency and bidirectional traceability are established between the software architecture and software detailed design; and consistency and bidirectional traceability are established between the components of hardware architecture and hardware detailed design.,null
+ProcessOutcome,SEC.2.OUT.7,null,CS_PAM_2.0,null,The agreed cybersecurity implementation is communicated to all affected parties.,null
+ProcessOutcome,SEC.3.OUT.1,null,CS_PAM_2.0,null,Risk treatment verification measures are developed.,null
+ProcessOutcome,SEC.3.OUT.2,null,CS_PAM_2.0,null,Verification measures are selected according to the release scope.,null
+ProcessOutcome,SEC.3.OUT.3,null,CS_PAM_2.0,null,The implementation of the design and the integration of the components is verified. Verification results are recorded.,null
+ProcessOutcome,SEC.3.OUT.4,null,CS_PAM_2.0,null,"Consistency and bidirectional traceability are established between the risk treatment verification measures and the cybersecurity requirements, as well as between the risk treatment verification measures and the refined architectural design, detailed design and software units. Bidirectional traceability is established between the verification results and the risk treatment verification measures.",null
+ProcessOutcome,SEC.3.OUT.5,null,CS_PAM_2.0,null,The results of the risk treatment verification are summarized and communicated to all affected parties.,null
+ProcessOutcome,SEC.4.OUT.1,null,CS_PAM_2.0,null,Risk treatment validation measures are specified based on the cybersecurity goals.,null
+ProcessOutcome,SEC.4.OUT.2,null,CS_PAM_2.0,null,"Validation measures are selected according to defined criteria, including criteria for regression validation.",null
+ProcessOutcome,SEC.4.OUT.3,null,CS_PAM_2.0,null,"The integrated system is validated using the specified validation measures, and the results of the validation are recorded.",null
+ProcessOutcome,SEC.4.OUT.4,null,CS_PAM_2.0,null,Consistency and bidirectional traceability are established between the validation measures and the cybersecurity goals; and bidirectional traceability is established between validation results and validation measures.,null
+ProcessOutcome,SEC.4.OUT.5,null,CS_PAM_2.0,null,The results of the risk treatment validation are summarized and communicated to all affected parties.,null
+BasePractice,ACQ.2.BP1,null,CS_PAM_2.0,null,Establish supplier evaluation criteria. Analyze relevant requirements to define evaluation criteria for supplier's capabilities.,null
+BasePractice,ACQ.2.BP2,null,CS_PAM_2.0,null,Evaluate potential suppliers. Collect information about the supplier's capabilities and evaluate it against the established evaluation criteria. Short-list the preferred suppliers and document the results.,null
+BasePractice,ACQ.2.BP3,null,CS_PAM_2.0,null,Prepare and issue a request for quotation. Identify supplier candidates based on the evaluation. Prepare and issue a request for quotation including a corrective action plan for identified deviations.,null
+BasePractice,ACQ.2.BP4,null,CS_PAM_2.0,null,"Negotiate and award the commitment/agreement. Establish a commitment/agreement based on the evaluation of the request for quotation responses, covering the relevant requirements, and the agreed corrective actions.",null
+BasePractice,MAN.7.BP1,null,CS_PAM_2.0,null,"Identify cybersecurity risk management scope. Identify and regularly update the cybersecurity risk management scope including the item, its functions and its boundaries with affected parties.",null
+BasePractice,MAN.7.BP2,null,CS_PAM_2.0,null,"Identify cybersecurity events. Identify and regularly evaluate cybersecurity information and derive potential cybersecurity events. Update the relevant assets, damage and threat scenarios with affected parties.",null
+BasePractice,MAN.7.BP3,null,CS_PAM_2.0,null,Analyze risks. Analyze and determine the risk of the potential cybersecurity events based on the impact they may have and based on the feasibility of an attack path to be exploited in order to support prioritization for the treatment of risks.,null
+BasePractice,MAN.7.BP4,null,CS_PAM_2.0,null,"Define risk treatment options. For each risk select a treatment option to retain, reduce, avoid, or transfer (share) the risk.",null
+BasePractice,MAN.7.BP5,null,CS_PAM_2.0,null,Define and perform risk treatment activities. Define and perform risk activities for risk treatment options.,null
+BasePractice,MAN.7.BP6,null,CS_PAM_2.0,null,"Monitor risks. Regularly re-evaluate the risks related to the identified potential cybersecurity events to determine changes in the status of the cybersecurity risks, re-evaluate the risk treatment options and review the progress of the risk treatment activities.",null
+BasePractice,MAN.7.BP7,null,CS_PAM_2.0,null,"Take corrective action. When risk treatment activities are not effective, take appropriate corrective action.",null
+BasePractice,SEC.1.BP1,null,CS_PAM_2.0,null,Specify cybersecurity goals and cybersecurity requirements. Specify cybersecurity goals for the threat scenarios according to the decisions regarding risk treatment to achieve risk reduction. Specify functional and non-functional cybersecurity requirements for the cybersecurity goals. Specify these according to defined characteristics for requirements.,null
+BasePractice,SEC.1.BP2,null,CS_PAM_2.0,null,Ensure consistency and establish bidirectional traceability. Ensure consistency and establish bidirectional traceability between the cybersecurity requirements and the cybersecurity goals. Ensure consistency and establish bidirectional traceability between the cybersecurity goals and the threat scenarios.,null
+BasePractice,SEC.1.BP3,null,CS_PAM_2.0,null,Communicate agreed cybersecurity requirements. Communicate agreed cybersecurity requirements to all affected parties.,null
+BasePractice,SEC.2.BP1,null,CS_PAM_2.0,null,"Refine the details of the architecture. The architecture of the system, software, and hardware is refined based on cybersecurity requirements.",null
+BasePractice,SEC.2.BP2,null,CS_PAM_2.0,null,"Ensure consistency and establish bidirectional traceability for cybersecurity requirements. Ensure consistency and establish bidirectional traceability between cybersecurity requirements and system architecture, software architecture and components of hardware architecture. Ensure consistency and establish bidirectional traceability between cybersecurity requirements and software detailed design and hardware detailed design.",null
+BasePractice,SEC.2.BP3,null,CS_PAM_2.0,null,Select cybersecurity controls. Select appropriate cybersecurity controls to achieve or support the cybersecurity requirements including an explanation of how the related risk is mitigated.,null
+BasePractice,SEC.2.BP4,null,CS_PAM_2.0,null,"Analyze architecture for weaknesses. Analyze the architecture of the system, software, and hardware, incl. interfaces and detailed design regarding weaknesses to identify vulnerabilities. Document the design decisions.",null
+BasePractice,SEC.2.BP5,null,CS_PAM_2.0,null,Refine the detailed design. The detailed design is refined based on the architecture of the software and hardware.,null
+BasePractice,SEC.2.BP6,null,CS_PAM_2.0,null,Ensure consistency and establish bidirectional traceability for architecture and detailed design. Ensure consistency and bidirectional traceability between the software architecture and software detailed design. Ensure consistency and bidirectional traceability between the components of hardware architecture and hardware detailed design.,null
+BasePractice,SEC.2.BP7,null,CS_PAM_2.0,null,Communicate agreed results of cybersecurity implementation. Communicate the agreed results of the cybersecurity implementation to all affected parties.,null
+BasePractice,SEC.3.BP1,null,CS_PAM_2.0,null,Specify risk treatment verification measures. Specify risk treatment verification measures suitable to provide evidence of compliance of the implementation with the cybersecurity requirements and the refined architectural design and detailed design.,null
+BasePractice,SEC.3.BP2,null,CS_PAM_2.0,null,Select verification measures. Document the selection of verification measures considering selection criteria including criteria for regression verification. The documented selection of verification measures shall have sufficient coverage according to the release scope.,null
+BasePractice,SEC.3.BP3,null,CS_PAM_2.0,null,Perform risk treatment verification activities. Verify the implementation of the design and component integration using the selected risk treatment verification measures. Record the risk treatment verification results including pass/fail status and corresponding verification measure data.,null
+BasePractice,SEC.3.BP4,null,CS_PAM_2.0,null,"Ensure consistency and establish bidirectional traceability. Ensure consistency and establish bidirectional traceability between the risk treatment verification measures and the cybersecurity requirements, the refined architectural design, detailed design and software units. Establish bidirectional traceability between the verification results and risk treatment verification measures.",null
+BasePractice,SEC.3.BP5,null,CS_PAM_2.0,null,Summarize and communicate results. Summarize the risk treatment verification results and communicate them to all affected parties.,null
+BasePractice,SEC.4.BP1,null,CS_PAM_2.0,null,Specify risk treatment validation measures. Specify the risk treatment validation measures to provide evidence for achievement of the associated cybersecurity goals.,null
+BasePractice,SEC.4.BP2,null,CS_PAM_2.0,null,Select validation measures. Document the selection of validation measures according to defined criteria including criteria for regression validation. The documented selection of validation measures shall have sufficient coverage of the cybersecurity goals.,null
+BasePractice,SEC.4.BP3,null,CS_PAM_2.0,null,Perform risk treatment validation activities. Validate the integrated system using the selected risk treatment validation measures. Record the validation results and corresponding validation measure data.,null
+BasePractice,SEC.4.BP4,null,CS_PAM_2.0,null,Ensure consistency and establish bidirectional traceability. Ensure consistency and establish bidirectional traceability between risk treatment validation measures and cybersecurity goals. Establish bidirectional traceability between validation results and validation measures.,null
+BasePractice,SEC.4.BP5,null,CS_PAM_2.0,null,Summarize and communicate results. Summarize the risk treatment validation results and communicate them to all affected parties.,null
+Note,ACQ.2.BP1.NOTE.1,null,CS_PAM_2.0,null,null,null
+Note,ACQ.2.BP2.NOTE.2,null,CS_PAM_2.0,null,null,null
+Note,ACQ.2.BP4.NOTE.3,null,CS_PAM_2.0,null,null,null
+Note,ACQ.2.BP4.NOTE.4,null,CS_PAM_2.0,null,null,null
+Note,MAN.7.BP1.NOTE.1,null,CS_PAM_2.0,null,null,null
+Note,MAN.7.BP1.NOTE.2,null,CS_PAM_2.0,null,null,null
+Note,MAN.7.BP1.NOTE.3,null,CS_PAM_2.0,null,null,null
+Note,MAN.7.BP3.NOTE.4,null,CS_PAM_2.0,null,null,null
+Note,MAN.7.BP6.NOTE.5,null,CS_PAM_2.0,null,null,null
+Note,MAN.7.BP7.NOTE.6,null,CS_PAM_2.0,null,null,null
+Note,SEC.1.BP1.NOTE.1,null,CS_PAM_2.0,null,null,null
+Note,SEC.1.BP1.NOTE.2,null,CS_PAM_2.0,null,null,null
+Note,SEC.1.BP1.NOTE.3,null,CS_PAM_2.0,null,null,null
+Note,SEC.1.BP1.NOTE.4,null,CS_PAM_2.0,null,null,null
+Note,SEC.1.BP3.NOTE.5,null,CS_PAM_2.0,null,null,null
+Note,SEC.2.BP1.NOTE.1,null,CS_PAM_2.0,null,null,null
+Note,SEC.2.BP3.NOTE.2,null,CS_PAM_2.0,null,null,null
+Note,SEC.2.BP5.NOTE.3,null,CS_PAM_2.0,null,null,null
+Note,SEC.2.BP7.NOTE.4,null,CS_PAM_2.0,null,null,null
+Note,SEC.3.BP1.NOTE.1,null,CS_PAM_2.0,null,null,null
+Note,SEC.3.BP1.NOTE.2,null,CS_PAM_2.0,null,null,null
+Note,SEC.3.BP1.NOTE.3,null,CS_PAM_2.0,null,null,null
+Note,SEC.3.BP1.NOTE.4,null,CS_PAM_2.0,null,null,null
+Note,SEC.3.BP1.NOTE.5,null,CS_PAM_2.0,null,null,null
+Note,SEC.3.BP2.NOTE.6,null,CS_PAM_2.0,null,null,null
+Note,SEC.3.BP3.NOTE.7,null,CS_PAM_2.0,null,null,null
+Note,SEC.3.BP4.NOTE.8,null,CS_PAM_2.0,null,null,null
+Note,SEC.3.BP5.NOTE.9,null,CS_PAM_2.0,null,null,null
+Note,SEC.4.BP1.NOTE.1,null,CS_PAM_2.0,null,null,null
+Note,SEC.4.BP1.NOTE.2,null,CS_PAM_2.0,null,null,null
+Note,SEC.4.BP3.NOTE.3,null,CS_PAM_2.0,null,null,null
+Note,SEC.4.BP4.NOTE.4,null,CS_PAM_2.0,null,null,null
+Note,SEC.4.BP5.NOTE.5,null,CS_PAM_2.0,null,null,null
